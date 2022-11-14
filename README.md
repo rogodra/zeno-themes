@@ -18,23 +18,23 @@ frontend:
 * Go to the HACS Community Store
 * Click on the **"Frontend"** option
 * Click on the **(+)** button
-* Search for **"Caule Themes Pack"**
+* Search for **"Zeno Themes"**
 * Click **"Install"**
 * Restart your Home Assistant
 
 
 # Manual installation
 
-Then download the **caule-themes-pack-1.yaml** [**clicking here**](https://bit.ly/2ZSH77b) and copy the file to your **themes** folder.<br>
+Then download the **zeno-themes.yaml** [**clicking here**](https://bit.ly/) and copy the file to your **themes** folder.<br>
 If your **themes** folder does not yet exist, you must create it within the **config** folder
 
 
 ## Download backgrounds and icons (only required for manual installation)
 10 of the 40 themes have backgrounds and all themes use animated icons for the weather forecast card. These files need to be downloaded and copied to your Home Assistant server.
 
-1. Download the backgrounds and icons [**clicking here.**](https://bit.ly/38G6ptj)
+1. Download the backgrounds and icons [**clicking here.**](https://bit.ly/)
 2. Extract the file **.Zip**
-3. Copy the folder **caule-themes-pack** into the folder **config/www/**. The final path to the file folder should be **config/www/caule-themes-pack-1/**
+3. Copy the folder **zeno-themes** into the folder **config/www/**. The final path to the file folder should be **config/www/zeno-themes/**
 
 *ATTENTION! If your **www** folder does not yet exist, create it within the **config** folder. *
 
@@ -46,7 +46,7 @@ Now **restart your Home Assistant** and the themes will be available for use.
 We will create a theme selector to be implemented in your user interface. It is a practical way to change the theme instantly on all devices connected to your Home Assistant. See how it works in the gif below:
 
 
-![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/docs/seletor.gif)
+![](https://raw.githubusercontent.com/rogodra/zeno-themes/master/docs/seletor.gif)
 
 ## 1st Step - Creating the input_select
 The input_select will be used to create the selection list with the themes that I created. <br>
@@ -60,46 +60,36 @@ input_select:
     name: 'Themes'
     icon: mdi:format-paint
     options:
-      - Caule Black Rose
-      - Caule Black Purple
-      - Caule Black Blue 
-      - Caule Black Aqua
-      - Caule Black Green
-      - Caule Black Yellow
-      - Caule Black Orange
-      - Caule Black Coral
-      - Caule Black Pink
-      - Caule Black Gray
-      - Caule Dark Rose
-      - Caule Dark Purple
-      - Caule Dark Blue 
-      - Caule Dark Aqua
-      - Caule Dark Green
-      - Caule Dark Yellow
-      - Caule Dark Orange
-      - Caule Dark Coral
-      - Caule Dark Pink
-      - Caule Dark Gray
-      - Caule Light Rose
-      - Caule Light Purple
-      - Caule Light Blue 
-      - Caule Light Aqua
-      - Caule Light Green
-      - Caule Light Yellow
-      - Caule Light Orange
-      - Caule Light Coral
-      - Caule Light Pink
-      - Caule Light Gray
-      - Caule Black Rose Glass
-      - Caule Black Purple Glass
-      - Caule Black Blue Glass 
-      - Caule Black Aqua Glass
-      - Caule Black Green Glass
-      - Caule Black Yellow Glass
-      - Caule Black Orange Glass
-      - Caule Black Coral Glass
-      - Caule Black Pink Glass
-      - Caule Black Gray Glass      
+      - Zeno Dark Rose
+      - Zeno Dark Purple
+      - Zeno Dark Blue 
+      - Zeno Dark Aqua
+      - Zeno Dark Green
+      - Zeno Dark Yellow
+      - Zeno Dark Orange
+      - Zeno Dark Coral
+      - Zeno Dark Pink
+      - Zeno Dark Gray
+      - Zeno Light Rose
+      - Zeno Light Purple
+      - Zeno Light Blue 
+      - Zeno Light Aqua
+      - Zeno Light Green
+      - Zeno Light Yellow
+      - Zeno Light Orange
+      - Zeno Light Coral
+      - Zeno Light Pink
+      - Zeno Light Gray
+      - Zeno Black Rose Glass
+      - Zeno Black Purple Glass
+      - Zeno Black Blue Glass 
+      - Zeno Black Aqua Glass
+      - Zeno Black Green Glass
+      - Zeno Black Yellow Glass
+      - Zeno Black Orange Glass
+      - Zeno Black Coral Glass
+      - Zeno Black Pink Glass
+      - Zeno Black Gray Glass      
       - default
 ```
 Restart your Home Assistant so that the input_select is created.
@@ -119,7 +109,7 @@ Result:
 Copy the code below and paste it into your file **automations.yaml**
 
 ```
-- alias: "set Themes - by caulecriativo.com"
+- alias: "set Themes"
   initial_state: true
   trigger:
     platform: state
@@ -139,7 +129,7 @@ Copy the code below and paste it into your file **automations.yaml**
 
 We will create a flow in Node-RED to define the theme automatically every time you choose a theme in your interface. It's very simple! Just download the .json file or copy the code and paste it into the Node-RED import window.
 
-![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/docs/nodered.gif)
+![](https://raw.githubusercontent.com/rogodra/zeno-themes/master/docs/nodered.gif)
 
 [Click here to copy or download the code for Node-RED flows](https://bit.ly/3gLMtrs)
 
