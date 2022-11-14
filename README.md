@@ -79,17 +79,7 @@ input_select:
       - Zeno Light Orange
       - Zeno Light Coral
       - Zeno Light Pink
-      - Zeno Light Gray
-      - Zeno Black Rose Glass
-      - Zeno Black Purple Glass
-      - Zeno Black Blue Glass 
-      - Zeno Black Aqua Glass
-      - Zeno Black Green Glass
-      - Zeno Black Yellow Glass
-      - Zeno Black Orange Glass
-      - Zeno Black Coral Glass
-      - Zeno Black Pink Glass
-      - Zeno Black Gray Glass      
+      - Zeno Light Gray  
       - default
 ```
 Restart your Home Assistant so that the input_select is created.
@@ -131,7 +121,7 @@ We will create a flow in Node-RED to define the theme automatically every time y
 
 ![](https://raw.githubusercontent.com/rogodra/zeno-themes/master/docs/nodered.gif)
 
-[Click here to copy or download the code for Node-RED flows](https://github.com/rogodra/zeno-themes/blob/main/themes/zeno-themes.yaml)
+[Click here to copy or download the code for Node-RED flows](https://github.com/rogodra/zeno-themes/blob/main/docs/seletor_theme_nodered.json)
 
 After importing the flow to your Node-RED, click **Deploy**<br><br>
 
