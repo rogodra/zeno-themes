@@ -25,15 +25,15 @@ frontend:
 
 # Manual installation
 
-Then download the **zeno-themes.yaml** [**clicking here**](https://bit.ly/) and copy the file to your **themes** folder.<br>
+Then download the **zeno-themes.yaml** [**clicking here**](https://github.com/rogodra/zeno-themes/blob/main/themes/zeno-themes.yaml) and copy the file to your **themes** folder.<br>
 If your **themes** folder does not yet exist, you must create it within the **config** folder
 
 
 ## Download backgrounds and icons (only required for manual installation)
 10 of the 40 themes have backgrounds and all themes use animated icons for the weather forecast card. These files need to be downloaded and copied to your Home Assistant server.
 
-1. Download the backgrounds and icons [**clicking here.**](https://bit.ly/)
-2. Extract the file **.Zip**
+1. Download the backgrounds and icons
+2. Extract the file
 3. Copy the folder **zeno-themes** into the folder **config/www/**. The final path to the file folder should be **config/www/zeno-themes/**
 
 *ATTENTION! If your **www** folder does not yet exist, create it within the **config** folder. *
@@ -131,7 +131,7 @@ We will create a flow in Node-RED to define the theme automatically every time y
 
 ![](https://raw.githubusercontent.com/rogodra/zeno-themes/master/docs/nodered.gif)
 
-[Click here to copy or download the code for Node-RED flows](https://bit.ly/3gLMtrs)
+[Click here to copy or download the code for Node-RED flows](https://github.com/rogodra/zeno-themes/blob/main/themes/zeno-themes.yaml)
 
 After importing the flow to your Node-RED, click **Deploy**<br><br>
 
