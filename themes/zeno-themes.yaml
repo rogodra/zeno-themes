@@ -2,31 +2,31 @@
 #     Release 0.0.1
 #
 #
-#     - Caule Dark Rose
-#     - Caule Dark Purple
-#     - Caule Dark Blue 
-#     - Caule Dark Aqua
-#     - Caule Dark Green
-#     - Caule Dark Yellow
-#     - Caule Dark Orange
-#     - Caule Dark Coral
-#     - Caule Dark Pink
-#     - Caule Dark Gray
+#     - Zeno Dark Rose
+#     - Zeno Dark Purple
+#     - Zeno Dark Blue 
+#     - Zeno Dark Aqua
+#     - Zeno Dark Green
+#     - Zeno Dark Yellow
+#     - Zeno Dark Orange
+#     - Zeno Dark Coral
+#     - Zeno Dark Pink
+#     - Zeno Dark Gray
 #
-#     - Caule Light Rose
-#     - Caule Light Purple
-#     - Caule Light Blue 
-#     - Caule Light Aqua
-#     - Caule Light Green
-#     - Caule Light Yellow
-#     - Caule Light Orange
-#     - Caule Light Coral
-#     - Caule Light Pink
-#     - Caule Light Gray
+#     - Zeno Light Rose
+#     - Zeno Light Purple
+#     - Zeno Light Blue 
+#     - Zeno Light Aqua
+#     - Zeno Light Green
+#     - Zeno Light Yellow
+#     - Zeno Light Orange
+#     - Zeno Light Coral
+#     - Zeno Light Pink
+#     - Zeno Light Gray
 
 
 #   # Place the backgrounds in the folder  config/www/images/backgrounds 
-#   lovelace-background: 'center / cover no-repeat url("/hacsfiles/themes/caule-themes-pack-1/rose.jpg") fixed'
+#   lovelace-background: 'center / cover no-repeat url("/hacsfiles/themes/zeno-themes/rose.jpg") fixed'
 
 
 #                             
@@ -39,7 +39,7 @@
 #                                    
                                 
 
-Caule Dark Rose:
+Zeno Dark Rose:
 
   # Change the value below 8px to 0px to remove the rounded corners
   ha-card-border-radius: 8px
@@ -101,21 +101,21 @@ Caule Dark Rose:
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
   #Animated icons
-  weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
-  weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
-  weather-icon-fog: url("/hacsfiles/themes/caule-themes-pack-1/fog.svg")
-  weather-icon-lightning: url("/hacsfiles/themes/caule-themes-pack-1/lightning.svg")
-  weather-icon-lightning-rainy: url("/hacsfiles/themes/caule-themes-pack-1/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("/hacsfiles/themes/caule-themes-pack-1/partlycloudy.svg")
-  weather-icon-pouring: url("/hacsfiles/themes/caule-themes-pack-1/pouring.svg")
-  weather-icon-rainy: url("/hacsfiles/themes/caule-themes-pack-1/rainy.svg")
-  weather-icon-hail: url("/hacsfiles/themes/caule-themes-pack-1/hail.svg")
-  weather-icon-snowy: url("/hacsfiles/themes/caule-themes-pack-1/snowy.svg")
-  weather-icon-snowy-rainy: url("/hacsfiles/themes/caule-themes-pack-1/snowy-rainy.svg")
-  weather-icon-sunny: url("/hacsfiles/themes/caule-themes-pack-1/sunny.svg")
-  weather-icon-windy: url("/hacsfiles/themes/caule-themes-pack-1/windy.svg")
-  weather-icon-windy-variant: url("/hacsfiles/themes/caule-themes-pack-1/windy-variant.svg")
-  weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
+  weather-icon-clear-night: url("/hacsfiles/themes/zeno-themes/clear-night.svg")
+  weather-icon-cloudy: url("/hacsfiles/themes/zeno-themes/cloudy.svg")
+  weather-icon-fog: url("/hacsfiles/themes/zeno-themes/fog.svg")
+  weather-icon-lightning: url("/hacsfiles/themes/zeno-themes/lightning.svg")
+  weather-icon-lightning-rainy: url("/hacsfiles/themes/zeno-themes/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/hacsfiles/themes/zeno-themes/partlycloudy.svg")
+  weather-icon-pouring: url("/hacsfiles/themes/zeno-themes/pouring.svg")
+  weather-icon-rainy: url("/hacsfiles/themes/zeno-themes/rainy.svg")
+  weather-icon-hail: url("/hacsfiles/themes/zeno-themes/hail.svg")
+  weather-icon-snowy: url("/hacsfiles/themes/zeno-themes/snowy.svg")
+  weather-icon-snowy-rainy: url("/hacsfiles/themes/zeno-themes/snowy-rainy.svg")
+  weather-icon-sunny: url("/hacsfiles/themes/zeno-themes/sunny.svg")
+  weather-icon-windy: url("/hacsfiles/themes/zeno-themes/windy.svg")
+  weather-icon-windy-variant: url("/hacsfiles/themes/zeno-themes/windy-variant.svg")
+  weather-icon-exceptional: url("/hacsfiles/themes/zeno-themes/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -153,7 +153,7 @@ Caule Dark Rose:
 
 
 
-Caule Dark Purple:
+Zeno Dark Purple:
 
   # Change the value below 8px to 0px to remove the rounded corners
   ha-card-border-radius: 8px
@@ -215,21 +215,21 @@ Caule Dark Purple:
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
   #Animated icons
-  weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
-  weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
-  weather-icon-fog: url("/hacsfiles/themes/caule-themes-pack-1/fog.svg")
-  weather-icon-lightning: url("/hacsfiles/themes/caule-themes-pack-1/lightning.svg")
-  weather-icon-lightning-rainy: url("/hacsfiles/themes/caule-themes-pack-1/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("/hacsfiles/themes/caule-themes-pack-1/partlycloudy.svg")
-  weather-icon-pouring: url("/hacsfiles/themes/caule-themes-pack-1/pouring.svg")
-  weather-icon-rainy: url("/hacsfiles/themes/caule-themes-pack-1/rainy.svg")
-  weather-icon-hail: url("/hacsfiles/themes/caule-themes-pack-1/hail.svg")
-  weather-icon-snowy: url("/hacsfiles/themes/caule-themes-pack-1/snowy.svg")
-  weather-icon-snowy-rainy: url("/hacsfiles/themes/caule-themes-pack-1/snowy-rainy.svg")
-  weather-icon-sunny: url("/hacsfiles/themes/caule-themes-pack-1/sunny.svg")
-  weather-icon-windy: url("/hacsfiles/themes/caule-themes-pack-1/windy.svg")
-  weather-icon-windy-variant: url("/hacsfiles/themes/caule-themes-pack-1/windy-variant.svg")
-  weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
+  weather-icon-clear-night: url("/hacsfiles/themes/zeno-themes/clear-night.svg")
+  weather-icon-cloudy: url("/hacsfiles/themes/zeno-themes/cloudy.svg")
+  weather-icon-fog: url("/hacsfiles/themes/zeno-themes/fog.svg")
+  weather-icon-lightning: url("/hacsfiles/themes/zeno-themes/lightning.svg")
+  weather-icon-lightning-rainy: url("/hacsfiles/themes/zeno-themes/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/hacsfiles/themes/zeno-themes/partlycloudy.svg")
+  weather-icon-pouring: url("/hacsfiles/themes/zeno-themes/pouring.svg")
+  weather-icon-rainy: url("/hacsfiles/themes/zeno-themes/rainy.svg")
+  weather-icon-hail: url("/hacsfiles/themes/zeno-themes/hail.svg")
+  weather-icon-snowy: url("/hacsfiles/themes/zeno-themes/snowy.svg")
+  weather-icon-snowy-rainy: url("/hacsfiles/themes/zeno-themes/snowy-rainy.svg")
+  weather-icon-sunny: url("/hacsfiles/themes/zeno-themes/sunny.svg")
+  weather-icon-windy: url("/hacsfiles/themes/zeno-themes/windy.svg")
+  weather-icon-windy-variant: url("/hacsfiles/themes/zeno-themes/windy-variant.svg")
+  weather-icon-exceptional: url("/hacsfiles/themes/zeno-themes/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -267,7 +267,7 @@ Caule Dark Purple:
 
 
 
-Caule Dark Blue:
+Zeno Dark Blue:
 
   # Change the value below 8px to 0px to remove the rounded corners
   ha-card-border-radius: 8px
@@ -329,21 +329,21 @@ Caule Dark Blue:
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
   #Animated icons
-  weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
-  weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
-  weather-icon-fog: url("/hacsfiles/themes/caule-themes-pack-1/fog.svg")
-  weather-icon-lightning: url("/hacsfiles/themes/caule-themes-pack-1/lightning.svg")
-  weather-icon-lightning-rainy: url("/hacsfiles/themes/caule-themes-pack-1/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("/hacsfiles/themes/caule-themes-pack-1/partlycloudy.svg")
-  weather-icon-pouring: url("/hacsfiles/themes/caule-themes-pack-1/pouring.svg")
-  weather-icon-rainy: url("/hacsfiles/themes/caule-themes-pack-1/rainy.svg")
-  weather-icon-hail: url("/hacsfiles/themes/caule-themes-pack-1/hail.svg")
-  weather-icon-snowy: url("/hacsfiles/themes/caule-themes-pack-1/snowy.svg")
-  weather-icon-snowy-rainy: url("/hacsfiles/themes/caule-themes-pack-1/snowy-rainy.svg")
-  weather-icon-sunny: url("/hacsfiles/themes/caule-themes-pack-1/sunny.svg")
-  weather-icon-windy: url("/hacsfiles/themes/caule-themes-pack-1/windy.svg")
-  weather-icon-windy-variant: url("/hacsfiles/themes/caule-themes-pack-1/windy-variant.svg")
-  weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
+  weather-icon-clear-night: url("/hacsfiles/themes/zeno-themes/clear-night.svg")
+  weather-icon-cloudy: url("/hacsfiles/themes/zeno-themes/cloudy.svg")
+  weather-icon-fog: url("/hacsfiles/themes/zeno-themes/fog.svg")
+  weather-icon-lightning: url("/hacsfiles/themes/zeno-themes/lightning.svg")
+  weather-icon-lightning-rainy: url("/hacsfiles/themes/zeno-themes/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/hacsfiles/themes/zeno-themes/partlycloudy.svg")
+  weather-icon-pouring: url("/hacsfiles/themes/zeno-themes/pouring.svg")
+  weather-icon-rainy: url("/hacsfiles/themes/zeno-themes/rainy.svg")
+  weather-icon-hail: url("/hacsfiles/themes/zeno-themes/hail.svg")
+  weather-icon-snowy: url("/hacsfiles/themes/zeno-themes/snowy.svg")
+  weather-icon-snowy-rainy: url("/hacsfiles/themes/zeno-themes/snowy-rainy.svg")
+  weather-icon-sunny: url("/hacsfiles/themes/zeno-themes/sunny.svg")
+  weather-icon-windy: url("/hacsfiles/themes/zeno-themes/windy.svg")
+  weather-icon-windy-variant: url("/hacsfiles/themes/zeno-themes/windy-variant.svg")
+  weather-icon-exceptional: url("/hacsfiles/themes/zeno-themes/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -381,7 +381,7 @@ Caule Dark Blue:
 
 
 
-Caule Dark Aqua:
+Zeno Dark Aqua:
 
   # Change the value below 8px to 0px to remove the rounded corners
   ha-card-border-radius: 8px
@@ -443,21 +443,21 @@ Caule Dark Aqua:
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
   #Animated icons
-  weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
-  weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
-  weather-icon-fog: url("/hacsfiles/themes/caule-themes-pack-1/fog.svg")
-  weather-icon-lightning: url("/hacsfiles/themes/caule-themes-pack-1/lightning.svg")
-  weather-icon-lightning-rainy: url("/hacsfiles/themes/caule-themes-pack-1/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("/hacsfiles/themes/caule-themes-pack-1/partlycloudy.svg")
-  weather-icon-pouring: url("/hacsfiles/themes/caule-themes-pack-1/pouring.svg")
-  weather-icon-rainy: url("/hacsfiles/themes/caule-themes-pack-1/rainy.svg")
-  weather-icon-hail: url("/hacsfiles/themes/caule-themes-pack-1/hail.svg")
-  weather-icon-snowy: url("/hacsfiles/themes/caule-themes-pack-1/snowy.svg")
-  weather-icon-snowy-rainy: url("/hacsfiles/themes/caule-themes-pack-1/snowy-rainy.svg")
-  weather-icon-sunny: url("/hacsfiles/themes/caule-themes-pack-1/sunny.svg")
-  weather-icon-windy: url("/hacsfiles/themes/caule-themes-pack-1/windy.svg")
-  weather-icon-windy-variant: url("/hacsfiles/themes/caule-themes-pack-1/windy-variant.svg")
-  weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
+  weather-icon-clear-night: url("/hacsfiles/themes/zeno-themes/clear-night.svg")
+  weather-icon-cloudy: url("/hacsfiles/themes/zeno-themes/cloudy.svg")
+  weather-icon-fog: url("/hacsfiles/themes/zeno-themes/fog.svg")
+  weather-icon-lightning: url("/hacsfiles/themes/zeno-themes/lightning.svg")
+  weather-icon-lightning-rainy: url("/hacsfiles/themes/zeno-themes/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/hacsfiles/themes/zeno-themes/partlycloudy.svg")
+  weather-icon-pouring: url("/hacsfiles/themes/zeno-themes/pouring.svg")
+  weather-icon-rainy: url("/hacsfiles/themes/zeno-themes/rainy.svg")
+  weather-icon-hail: url("/hacsfiles/themes/zeno-themes/hail.svg")
+  weather-icon-snowy: url("/hacsfiles/themes/zeno-themes/snowy.svg")
+  weather-icon-snowy-rainy: url("/hacsfiles/themes/zeno-themes/snowy-rainy.svg")
+  weather-icon-sunny: url("/hacsfiles/themes/zeno-themes/sunny.svg")
+  weather-icon-windy: url("/hacsfiles/themes/zeno-themes/windy.svg")
+  weather-icon-windy-variant: url("/hacsfiles/themes/zeno-themes/windy-variant.svg")
+  weather-icon-exceptional: url("/hacsfiles/themes/zeno-themes/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -495,7 +495,7 @@ Caule Dark Aqua:
 
 
 
-Caule Dark Green:
+Zeno Dark Green:
 
   # Change the value below 8px to 0px to remove the rounded corners
   ha-card-border-radius: 8px
@@ -557,21 +557,21 @@ Caule Dark Green:
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
   #Animated icons
-  weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
-  weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
-  weather-icon-fog: url("/hacsfiles/themes/caule-themes-pack-1/fog.svg")
-  weather-icon-lightning: url("/hacsfiles/themes/caule-themes-pack-1/lightning.svg")
-  weather-icon-lightning-rainy: url("/hacsfiles/themes/caule-themes-pack-1/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("/hacsfiles/themes/caule-themes-pack-1/partlycloudy.svg")
-  weather-icon-pouring: url("/hacsfiles/themes/caule-themes-pack-1/pouring.svg")
-  weather-icon-rainy: url("/hacsfiles/themes/caule-themes-pack-1/rainy.svg")
-  weather-icon-hail: url("/hacsfiles/themes/caule-themes-pack-1/hail.svg")
-  weather-icon-snowy: url("/hacsfiles/themes/caule-themes-pack-1/snowy.svg")
-  weather-icon-snowy-rainy: url("/hacsfiles/themes/caule-themes-pack-1/snowy-rainy.svg")
-  weather-icon-sunny: url("/hacsfiles/themes/caule-themes-pack-1/sunny.svg")
-  weather-icon-windy: url("/hacsfiles/themes/caule-themes-pack-1/windy.svg")
-  weather-icon-windy-variant: url("/hacsfiles/themes/caule-themes-pack-1/windy-variant.svg")
-  weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
+  weather-icon-clear-night: url("/hacsfiles/themes/zeno-themes/clear-night.svg")
+  weather-icon-cloudy: url("/hacsfiles/themes/zeno-themes/cloudy.svg")
+  weather-icon-fog: url("/hacsfiles/themes/zeno-themes/fog.svg")
+  weather-icon-lightning: url("/hacsfiles/themes/zeno-themes/lightning.svg")
+  weather-icon-lightning-rainy: url("/hacsfiles/themes/zeno-themes/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/hacsfiles/themes/zeno-themes/partlycloudy.svg")
+  weather-icon-pouring: url("/hacsfiles/themes/zeno-themes/pouring.svg")
+  weather-icon-rainy: url("/hacsfiles/themes/zeno-themes/rainy.svg")
+  weather-icon-hail: url("/hacsfiles/themes/zeno-themes/hail.svg")
+  weather-icon-snowy: url("/hacsfiles/themes/zeno-themes/snowy.svg")
+  weather-icon-snowy-rainy: url("/hacsfiles/themes/zeno-themes/snowy-rainy.svg")
+  weather-icon-sunny: url("/hacsfiles/themes/zeno-themes/sunny.svg")
+  weather-icon-windy: url("/hacsfiles/themes/zeno-themes/windy.svg")
+  weather-icon-windy-variant: url("/hacsfiles/themes/zeno-themes/windy-variant.svg")
+  weather-icon-exceptional: url("/hacsfiles/themes/zeno-themes/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -609,7 +609,7 @@ Caule Dark Green:
 
 
 
-Caule Dark Yellow:
+Zeno Dark Yellow:
 
   # Change the value below 8px to 0px to remove the rounded corners
   ha-card-border-radius: 8px
@@ -671,21 +671,21 @@ Caule Dark Yellow:
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
   #Animated icons
-  weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
-  weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
-  weather-icon-fog: url("/hacsfiles/themes/caule-themes-pack-1/fog.svg")
-  weather-icon-lightning: url("/hacsfiles/themes/caule-themes-pack-1/lightning.svg")
-  weather-icon-lightning-rainy: url("/hacsfiles/themes/caule-themes-pack-1/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("/hacsfiles/themes/caule-themes-pack-1/partlycloudy.svg")
-  weather-icon-pouring: url("/hacsfiles/themes/caule-themes-pack-1/pouring.svg")
-  weather-icon-rainy: url("/hacsfiles/themes/caule-themes-pack-1/rainy.svg")
-  weather-icon-hail: url("/hacsfiles/themes/caule-themes-pack-1/hail.svg")
-  weather-icon-snowy: url("/hacsfiles/themes/caule-themes-pack-1/snowy.svg")
-  weather-icon-snowy-rainy: url("/hacsfiles/themes/caule-themes-pack-1/snowy-rainy.svg")
-  weather-icon-sunny: url("/hacsfiles/themes/caule-themes-pack-1/sunny.svg")
-  weather-icon-windy: url("/hacsfiles/themes/caule-themes-pack-1/windy.svg")
-  weather-icon-windy-variant: url("/hacsfiles/themes/caule-themes-pack-1/windy-variant.svg")
-  weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
+  weather-icon-clear-night: url("/hacsfiles/themes/zeno-themes/clear-night.svg")
+  weather-icon-cloudy: url("/hacsfiles/themes/zeno-themes/cloudy.svg")
+  weather-icon-fog: url("/hacsfiles/themes/zeno-themes/fog.svg")
+  weather-icon-lightning: url("/hacsfiles/themes/zeno-themes/lightning.svg")
+  weather-icon-lightning-rainy: url("/hacsfiles/themes/zeno-themes/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/hacsfiles/themes/zeno-themes/partlycloudy.svg")
+  weather-icon-pouring: url("/hacsfiles/themes/zeno-themes/pouring.svg")
+  weather-icon-rainy: url("/hacsfiles/themes/zeno-themes/rainy.svg")
+  weather-icon-hail: url("/hacsfiles/themes/zeno-themes/hail.svg")
+  weather-icon-snowy: url("/hacsfiles/themes/zeno-themes/snowy.svg")
+  weather-icon-snowy-rainy: url("/hacsfiles/themes/zeno-themes/snowy-rainy.svg")
+  weather-icon-sunny: url("/hacsfiles/themes/zeno-themes/sunny.svg")
+  weather-icon-windy: url("/hacsfiles/themes/zeno-themes/windy.svg")
+  weather-icon-windy-variant: url("/hacsfiles/themes/zeno-themes/windy-variant.svg")
+  weather-icon-exceptional: url("/hacsfiles/themes/zeno-themes/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -724,7 +724,7 @@ Caule Dark Yellow:
 
 
 
-Caule Dark Orange:
+Zeno Dark Orange:
 
   # Change the value below 8px to 0px to remove the rounded corners
   ha-card-border-radius: 8px
@@ -786,21 +786,21 @@ Caule Dark Orange:
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
   #Animated icons
-  weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
-  weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
-  weather-icon-fog: url("/hacsfiles/themes/caule-themes-pack-1/fog.svg")
-  weather-icon-lightning: url("/hacsfiles/themes/caule-themes-pack-1/lightning.svg")
-  weather-icon-lightning-rainy: url("/hacsfiles/themes/caule-themes-pack-1/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("/hacsfiles/themes/caule-themes-pack-1/partlycloudy.svg")
-  weather-icon-pouring: url("/hacsfiles/themes/caule-themes-pack-1/pouring.svg")
-  weather-icon-rainy: url("/hacsfiles/themes/caule-themes-pack-1/rainy.svg")
-  weather-icon-hail: url("/hacsfiles/themes/caule-themes-pack-1/hail.svg")
-  weather-icon-snowy: url("/hacsfiles/themes/caule-themes-pack-1/snowy.svg")
-  weather-icon-snowy-rainy: url("/hacsfiles/themes/caule-themes-pack-1/snowy-rainy.svg")
-  weather-icon-sunny: url("/hacsfiles/themes/caule-themes-pack-1/sunny.svg")
-  weather-icon-windy: url("/hacsfiles/themes/caule-themes-pack-1/windy.svg")
-  weather-icon-windy-variant: url("/hacsfiles/themes/caule-themes-pack-1/windy-variant.svg")
-  weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
+  weather-icon-clear-night: url("/hacsfiles/themes/zeno-themes/clear-night.svg")
+  weather-icon-cloudy: url("/hacsfiles/themes/zeno-themes/cloudy.svg")
+  weather-icon-fog: url("/hacsfiles/themes/zeno-themes/fog.svg")
+  weather-icon-lightning: url("/hacsfiles/themes/zeno-themes/lightning.svg")
+  weather-icon-lightning-rainy: url("/hacsfiles/themes/zeno-themes/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/hacsfiles/themes/zeno-themes/partlycloudy.svg")
+  weather-icon-pouring: url("/hacsfiles/themes/zeno-themes/pouring.svg")
+  weather-icon-rainy: url("/hacsfiles/themes/zeno-themes/rainy.svg")
+  weather-icon-hail: url("/hacsfiles/themes/zeno-themes/hail.svg")
+  weather-icon-snowy: url("/hacsfiles/themes/zeno-themes/snowy.svg")
+  weather-icon-snowy-rainy: url("/hacsfiles/themes/zeno-themes/snowy-rainy.svg")
+  weather-icon-sunny: url("/hacsfiles/themes/zeno-themes/sunny.svg")
+  weather-icon-windy: url("/hacsfiles/themes/zeno-themes/windy.svg")
+  weather-icon-windy-variant: url("/hacsfiles/themes/zeno-themes/windy-variant.svg")
+  weather-icon-exceptional: url("/hacsfiles/themes/zeno-themes/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -838,7 +838,7 @@ Caule Dark Orange:
 
 
 
-Caule Dark Coral:
+Zeno Dark Coral:
 
   # Change the value below 8px to 0px to remove the rounded corners
   ha-card-border-radius: 8px
@@ -900,21 +900,21 @@ Caule Dark Coral:
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
   #Animated icons
-  weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
-  weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
-  weather-icon-fog: url("/hacsfiles/themes/caule-themes-pack-1/fog.svg")
-  weather-icon-lightning: url("/hacsfiles/themes/caule-themes-pack-1/lightning.svg")
-  weather-icon-lightning-rainy: url("/hacsfiles/themes/caule-themes-pack-1/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("/hacsfiles/themes/caule-themes-pack-1/partlycloudy.svg")
-  weather-icon-pouring: url("/hacsfiles/themes/caule-themes-pack-1/pouring.svg")
-  weather-icon-rainy: url("/hacsfiles/themes/caule-themes-pack-1/rainy.svg")
-  weather-icon-hail: url("/hacsfiles/themes/caule-themes-pack-1/hail.svg")
-  weather-icon-snowy: url("/hacsfiles/themes/caule-themes-pack-1/snowy.svg")
-  weather-icon-snowy-rainy: url("/hacsfiles/themes/caule-themes-pack-1/snowy-rainy.svg")
-  weather-icon-sunny: url("/hacsfiles/themes/caule-themes-pack-1/sunny.svg")
-  weather-icon-windy: url("/hacsfiles/themes/caule-themes-pack-1/windy.svg")
-  weather-icon-windy-variant: url("/hacsfiles/themes/caule-themes-pack-1/windy-variant.svg")
-  weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
+  weather-icon-clear-night: url("/hacsfiles/themes/zeno-themes/clear-night.svg")
+  weather-icon-cloudy: url("/hacsfiles/themes/zeno-themes/cloudy.svg")
+  weather-icon-fog: url("/hacsfiles/themes/zeno-themes/fog.svg")
+  weather-icon-lightning: url("/hacsfiles/themes/zeno-themes/lightning.svg")
+  weather-icon-lightning-rainy: url("/hacsfiles/themes/zeno-themes/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/hacsfiles/themes/zeno-themes/partlycloudy.svg")
+  weather-icon-pouring: url("/hacsfiles/themes/zeno-themes/pouring.svg")
+  weather-icon-rainy: url("/hacsfiles/themes/zeno-themes/rainy.svg")
+  weather-icon-hail: url("/hacsfiles/themes/zeno-themes/hail.svg")
+  weather-icon-snowy: url("/hacsfiles/themes/zeno-themes/snowy.svg")
+  weather-icon-snowy-rainy: url("/hacsfiles/themes/zeno-themes/snowy-rainy.svg")
+  weather-icon-sunny: url("/hacsfiles/themes/zeno-themes/sunny.svg")
+  weather-icon-windy: url("/hacsfiles/themes/zeno-themes/windy.svg")
+  weather-icon-windy-variant: url("/hacsfiles/themes/zeno-themes/windy-variant.svg")
+  weather-icon-exceptional: url("/hacsfiles/themes/zeno-themes/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -952,7 +952,7 @@ Caule Dark Coral:
 
 
 
-Caule Dark Pink:
+Zeno Dark Pink:
 
   # Change the value below 8px to 0px to remove the rounded corners
   ha-card-border-radius: 8px
@@ -1014,21 +1014,21 @@ Caule Dark Pink:
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
   #Animated icons
-  weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
-  weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
-  weather-icon-fog: url("/hacsfiles/themes/caule-themes-pack-1/fog.svg")
-  weather-icon-lightning: url("/hacsfiles/themes/caule-themes-pack-1/lightning.svg")
-  weather-icon-lightning-rainy: url("/hacsfiles/themes/caule-themes-pack-1/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("/hacsfiles/themes/caule-themes-pack-1/partlycloudy.svg")
-  weather-icon-pouring: url("/hacsfiles/themes/caule-themes-pack-1/pouring.svg")
-  weather-icon-rainy: url("/hacsfiles/themes/caule-themes-pack-1/rainy.svg")
-  weather-icon-hail: url("/hacsfiles/themes/caule-themes-pack-1/hail.svg")
-  weather-icon-snowy: url("/hacsfiles/themes/caule-themes-pack-1/snowy.svg")
-  weather-icon-snowy-rainy: url("/hacsfiles/themes/caule-themes-pack-1/snowy-rainy.svg")
-  weather-icon-sunny: url("/hacsfiles/themes/caule-themes-pack-1/sunny.svg")
-  weather-icon-windy: url("/hacsfiles/themes/caule-themes-pack-1/windy.svg")
-  weather-icon-windy-variant: url("/hacsfiles/themes/caule-themes-pack-1/windy-variant.svg")
-  weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
+  weather-icon-clear-night: url("/hacsfiles/themes/zeno-themes/clear-night.svg")
+  weather-icon-cloudy: url("/hacsfiles/themes/zeno-themes/cloudy.svg")
+  weather-icon-fog: url("/hacsfiles/themes/zeno-themes/fog.svg")
+  weather-icon-lightning: url("/hacsfiles/themes/zeno-themes/lightning.svg")
+  weather-icon-lightning-rainy: url("/hacsfiles/themes/zeno-themes/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/hacsfiles/themes/zeno-themes/partlycloudy.svg")
+  weather-icon-pouring: url("/hacsfiles/themes/zeno-themes/pouring.svg")
+  weather-icon-rainy: url("/hacsfiles/themes/zeno-themes/rainy.svg")
+  weather-icon-hail: url("/hacsfiles/themes/zeno-themes/hail.svg")
+  weather-icon-snowy: url("/hacsfiles/themes/zeno-themes/snowy.svg")
+  weather-icon-snowy-rainy: url("/hacsfiles/themes/zeno-themes/snowy-rainy.svg")
+  weather-icon-sunny: url("/hacsfiles/themes/zeno-themes/sunny.svg")
+  weather-icon-windy: url("/hacsfiles/themes/zeno-themes/windy.svg")
+  weather-icon-windy-variant: url("/hacsfiles/themes/zeno-themes/windy-variant.svg")
+  weather-icon-exceptional: url("/hacsfiles/themes/zeno-themes/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -1066,7 +1066,7 @@ Caule Dark Pink:
 
 
 
-Caule Dark Gray:
+Zeno Dark Gray:
 
   # Change the value below 8px to 0px to remove the rounded corners
   ha-card-border-radius: 8px
@@ -1128,21 +1128,21 @@ Caule Dark Gray:
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
   #Animated icons
-  weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
-  weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
-  weather-icon-fog: url("/hacsfiles/themes/caule-themes-pack-1/fog.svg")
-  weather-icon-lightning: url("/hacsfiles/themes/caule-themes-pack-1/lightning.svg")
-  weather-icon-lightning-rainy: url("/hacsfiles/themes/caule-themes-pack-1/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("/hacsfiles/themes/caule-themes-pack-1/partlycloudy.svg")
-  weather-icon-pouring: url("/hacsfiles/themes/caule-themes-pack-1/pouring.svg")
-  weather-icon-rainy: url("/hacsfiles/themes/caule-themes-pack-1/rainy.svg")
-  weather-icon-hail: url("/hacsfiles/themes/caule-themes-pack-1/hail.svg")
-  weather-icon-snowy: url("/hacsfiles/themes/caule-themes-pack-1/snowy.svg")
-  weather-icon-snowy-rainy: url("/hacsfiles/themes/caule-themes-pack-1/snowy-rainy.svg")
-  weather-icon-sunny: url("/hacsfiles/themes/caule-themes-pack-1/sunny.svg")
-  weather-icon-windy: url("/hacsfiles/themes/caule-themes-pack-1/windy.svg")
-  weather-icon-windy-variant: url("/hacsfiles/themes/caule-themes-pack-1/windy-variant.svg")
-  weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
+  weather-icon-clear-night: url("/hacsfiles/themes/zeno-themes/clear-night.svg")
+  weather-icon-cloudy: url("/hacsfiles/themes/zeno-themes/cloudy.svg")
+  weather-icon-fog: url("/hacsfiles/themes/zeno-themes/fog.svg")
+  weather-icon-lightning: url("/hacsfiles/themes/zeno-themes/lightning.svg")
+  weather-icon-lightning-rainy: url("/hacsfiles/themes/zeno-themes/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/hacsfiles/themes/zeno-themes/partlycloudy.svg")
+  weather-icon-pouring: url("/hacsfiles/themes/zeno-themes/pouring.svg")
+  weather-icon-rainy: url("/hacsfiles/themes/zeno-themes/rainy.svg")
+  weather-icon-hail: url("/hacsfiles/themes/zeno-themes/hail.svg")
+  weather-icon-snowy: url("/hacsfiles/themes/zeno-themes/snowy.svg")
+  weather-icon-snowy-rainy: url("/hacsfiles/themes/zeno-themes/snowy-rainy.svg")
+  weather-icon-sunny: url("/hacsfiles/themes/zeno-themes/sunny.svg")
+  weather-icon-windy: url("/hacsfiles/themes/zeno-themes/windy.svg")
+  weather-icon-windy-variant: url("/hacsfiles/themes/zeno-themes/windy-variant.svg")
+  weather-icon-exceptional: url("/hacsfiles/themes/zeno-themes/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -1184,7 +1184,7 @@ Caule Dark Gray:
 #         
                                                           
 
-Caule Light Rose:
+Zeno Light Rose:
 
   # Change the value below 8px to 0px to remove the rounded corners
   ha-card-border-radius: 8px
@@ -1246,21 +1246,21 @@ Caule Light Rose:
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
   #Animated icons
-  weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
-  weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
-  weather-icon-fog: url("/hacsfiles/themes/caule-themes-pack-1/fog.svg")
-  weather-icon-lightning: url("/hacsfiles/themes/caule-themes-pack-1/lightning.svg")
-  weather-icon-lightning-rainy: url("/hacsfiles/themes/caule-themes-pack-1/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("/hacsfiles/themes/caule-themes-pack-1/partlycloudy.svg")
-  weather-icon-pouring: url("/hacsfiles/themes/caule-themes-pack-1/pouring.svg")
-  weather-icon-rainy: url("/hacsfiles/themes/caule-themes-pack-1/rainy.svg")
-  weather-icon-hail: url("/hacsfiles/themes/caule-themes-pack-1/hail.svg")
-  weather-icon-snowy: url("/hacsfiles/themes/caule-themes-pack-1/snowy.svg")
-  weather-icon-snowy-rainy: url("/hacsfiles/themes/caule-themes-pack-1/snowy-rainy.svg")
-  weather-icon-sunny: url("/hacsfiles/themes/caule-themes-pack-1/sunny.svg")
-  weather-icon-windy: url("/hacsfiles/themes/caule-themes-pack-1/windy.svg")
-  weather-icon-windy-variant: url("/hacsfiles/themes/caule-themes-pack-1/windy-variant.svg")
-  weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
+  weather-icon-clear-night: url("/hacsfiles/themes/zeno-themes/clear-night.svg")
+  weather-icon-cloudy: url("/hacsfiles/themes/zeno-themes/cloudy.svg")
+  weather-icon-fog: url("/hacsfiles/themes/zeno-themes/fog.svg")
+  weather-icon-lightning: url("/hacsfiles/themes/zeno-themes/lightning.svg")
+  weather-icon-lightning-rainy: url("/hacsfiles/themes/zeno-themes/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/hacsfiles/themes/zeno-themes/partlycloudy.svg")
+  weather-icon-pouring: url("/hacsfiles/themes/zeno-themes/pouring.svg")
+  weather-icon-rainy: url("/hacsfiles/themes/zeno-themes/rainy.svg")
+  weather-icon-hail: url("/hacsfiles/themes/zeno-themes/hail.svg")
+  weather-icon-snowy: url("/hacsfiles/themes/zeno-themes/snowy.svg")
+  weather-icon-snowy-rainy: url("/hacsfiles/themes/zeno-themes/snowy-rainy.svg")
+  weather-icon-sunny: url("/hacsfiles/themes/zeno-themes/sunny.svg")
+  weather-icon-windy: url("/hacsfiles/themes/zeno-themes/windy.svg")
+  weather-icon-windy-variant: url("/hacsfiles/themes/zeno-themes/windy-variant.svg")
+  weather-icon-exceptional: url("/hacsfiles/themes/zeno-themes/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -1298,7 +1298,7 @@ Caule Light Rose:
 
 
 
-Caule Light Purple:
+Zeno Light Purple:
 
   # Change the value below 8px to 0px to remove the rounded corners
   ha-card-border-radius: 8px
@@ -1360,21 +1360,21 @@ Caule Light Purple:
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
   #Animated icons
-  weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
-  weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
-  weather-icon-fog: url("/hacsfiles/themes/caule-themes-pack-1/fog.svg")
-  weather-icon-lightning: url("/hacsfiles/themes/caule-themes-pack-1/lightning.svg")
-  weather-icon-lightning-rainy: url("/hacsfiles/themes/caule-themes-pack-1/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("/hacsfiles/themes/caule-themes-pack-1/partlycloudy.svg")
-  weather-icon-pouring: url("/hacsfiles/themes/caule-themes-pack-1/pouring.svg")
-  weather-icon-rainy: url("/hacsfiles/themes/caule-themes-pack-1/rainy.svg")
-  weather-icon-hail: url("/hacsfiles/themes/caule-themes-pack-1/hail.svg")
-  weather-icon-snowy: url("/hacsfiles/themes/caule-themes-pack-1/snowy.svg")
-  weather-icon-snowy-rainy: url("/hacsfiles/themes/caule-themes-pack-1/snowy-rainy.svg")
-  weather-icon-sunny: url("/hacsfiles/themes/caule-themes-pack-1/sunny.svg")
-  weather-icon-windy: url("/hacsfiles/themes/caule-themes-pack-1/windy.svg")
-  weather-icon-windy-variant: url("/hacsfiles/themes/caule-themes-pack-1/windy-variant.svg")
-  weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
+  weather-icon-clear-night: url("/hacsfiles/themes/zeno-themes/clear-night.svg")
+  weather-icon-cloudy: url("/hacsfiles/themes/zeno-themes/cloudy.svg")
+  weather-icon-fog: url("/hacsfiles/themes/zeno-themes/fog.svg")
+  weather-icon-lightning: url("/hacsfiles/themes/zeno-themes/lightning.svg")
+  weather-icon-lightning-rainy: url("/hacsfiles/themes/zeno-themes/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/hacsfiles/themes/zeno-themes/partlycloudy.svg")
+  weather-icon-pouring: url("/hacsfiles/themes/zeno-themes/pouring.svg")
+  weather-icon-rainy: url("/hacsfiles/themes/zeno-themes/rainy.svg")
+  weather-icon-hail: url("/hacsfiles/themes/zeno-themes/hail.svg")
+  weather-icon-snowy: url("/hacsfiles/themes/zeno-themes/snowy.svg")
+  weather-icon-snowy-rainy: url("/hacsfiles/themes/zeno-themes/snowy-rainy.svg")
+  weather-icon-sunny: url("/hacsfiles/themes/zeno-themes/sunny.svg")
+  weather-icon-windy: url("/hacsfiles/themes/zeno-themes/windy.svg")
+  weather-icon-windy-variant: url("/hacsfiles/themes/zeno-themes/windy-variant.svg")
+  weather-icon-exceptional: url("/hacsfiles/themes/zeno-themes/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -1412,7 +1412,7 @@ Caule Light Purple:
 
 
 
-Caule Light Blue:
+Zeno Light Blue:
 
   # Change the value below 8px to 0px to remove the rounded corners
   ha-card-border-radius: 8px
@@ -1474,21 +1474,21 @@ Caule Light Blue:
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
   #Animated icons
-  weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
-  weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
-  weather-icon-fog: url("/hacsfiles/themes/caule-themes-pack-1/fog.svg")
-  weather-icon-lightning: url("/hacsfiles/themes/caule-themes-pack-1/lightning.svg")
-  weather-icon-lightning-rainy: url("/hacsfiles/themes/caule-themes-pack-1/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("/hacsfiles/themes/caule-themes-pack-1/partlycloudy.svg")
-  weather-icon-pouring: url("/hacsfiles/themes/caule-themes-pack-1/pouring.svg")
-  weather-icon-rainy: url("/hacsfiles/themes/caule-themes-pack-1/rainy.svg")
-  weather-icon-hail: url("/hacsfiles/themes/caule-themes-pack-1/hail.svg")
-  weather-icon-snowy: url("/hacsfiles/themes/caule-themes-pack-1/snowy.svg")
-  weather-icon-snowy-rainy: url("/hacsfiles/themes/caule-themes-pack-1/snowy-rainy.svg")
-  weather-icon-sunny: url("/hacsfiles/themes/caule-themes-pack-1/sunny.svg")
-  weather-icon-windy: url("/hacsfiles/themes/caule-themes-pack-1/windy.svg")
-  weather-icon-windy-variant: url("/hacsfiles/themes/caule-themes-pack-1/windy-variant.svg")
-  weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
+  weather-icon-clear-night: url("/hacsfiles/themes/zeno-themes/clear-night.svg")
+  weather-icon-cloudy: url("/hacsfiles/themes/zeno-themes/cloudy.svg")
+  weather-icon-fog: url("/hacsfiles/themes/zeno-themes/fog.svg")
+  weather-icon-lightning: url("/hacsfiles/themes/zeno-themes/lightning.svg")
+  weather-icon-lightning-rainy: url("/hacsfiles/themes/zeno-themes/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/hacsfiles/themes/zeno-themes/partlycloudy.svg")
+  weather-icon-pouring: url("/hacsfiles/themes/zeno-themes/pouring.svg")
+  weather-icon-rainy: url("/hacsfiles/themes/zeno-themes/rainy.svg")
+  weather-icon-hail: url("/hacsfiles/themes/zeno-themes/hail.svg")
+  weather-icon-snowy: url("/hacsfiles/themes/zeno-themes/snowy.svg")
+  weather-icon-snowy-rainy: url("/hacsfiles/themes/zeno-themes/snowy-rainy.svg")
+  weather-icon-sunny: url("/hacsfiles/themes/zeno-themes/sunny.svg")
+  weather-icon-windy: url("/hacsfiles/themes/zeno-themes/windy.svg")
+  weather-icon-windy-variant: url("/hacsfiles/themes/zeno-themes/windy-variant.svg")
+  weather-icon-exceptional: url("/hacsfiles/themes/zeno-themes/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -1526,7 +1526,7 @@ Caule Light Blue:
 
 
 
-Caule Light Aqua:
+Zeno Light Aqua:
 
   # Change the value below 8px to 0px to remove the rounded corners
   ha-card-border-radius: 8px
@@ -1588,21 +1588,21 @@ Caule Light Aqua:
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
   #Animated icons
-  weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
-  weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
-  weather-icon-fog: url("/hacsfiles/themes/caule-themes-pack-1/fog.svg")
-  weather-icon-lightning: url("/hacsfiles/themes/caule-themes-pack-1/lightning.svg")
-  weather-icon-lightning-rainy: url("/hacsfiles/themes/caule-themes-pack-1/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("/hacsfiles/themes/caule-themes-pack-1/partlycloudy.svg")
-  weather-icon-pouring: url("/hacsfiles/themes/caule-themes-pack-1/pouring.svg")
-  weather-icon-rainy: url("/hacsfiles/themes/caule-themes-pack-1/rainy.svg")
-  weather-icon-hail: url("/hacsfiles/themes/caule-themes-pack-1/hail.svg")
-  weather-icon-snowy: url("/hacsfiles/themes/caule-themes-pack-1/snowy.svg")
-  weather-icon-snowy-rainy: url("/hacsfiles/themes/caule-themes-pack-1/snowy-rainy.svg")
-  weather-icon-sunny: url("/hacsfiles/themes/caule-themes-pack-1/sunny.svg")
-  weather-icon-windy: url("/hacsfiles/themes/caule-themes-pack-1/windy.svg")
-  weather-icon-windy-variant: url("/hacsfiles/themes/caule-themes-pack-1/windy-variant.svg")
-  weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
+  weather-icon-clear-night: url("/hacsfiles/themes/zeno-themes/clear-night.svg")
+  weather-icon-cloudy: url("/hacsfiles/themes/zeno-themes/cloudy.svg")
+  weather-icon-fog: url("/hacsfiles/themes/zeno-themes/fog.svg")
+  weather-icon-lightning: url("/hacsfiles/themes/zeno-themes/lightning.svg")
+  weather-icon-lightning-rainy: url("/hacsfiles/themes/zeno-themes/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/hacsfiles/themes/zeno-themes/partlycloudy.svg")
+  weather-icon-pouring: url("/hacsfiles/themes/zeno-themes/pouring.svg")
+  weather-icon-rainy: url("/hacsfiles/themes/zeno-themes/rainy.svg")
+  weather-icon-hail: url("/hacsfiles/themes/zeno-themes/hail.svg")
+  weather-icon-snowy: url("/hacsfiles/themes/zeno-themes/snowy.svg")
+  weather-icon-snowy-rainy: url("/hacsfiles/themes/zeno-themes/snowy-rainy.svg")
+  weather-icon-sunny: url("/hacsfiles/themes/zeno-themes/sunny.svg")
+  weather-icon-windy: url("/hacsfiles/themes/zeno-themes/windy.svg")
+  weather-icon-windy-variant: url("/hacsfiles/themes/zeno-themes/windy-variant.svg")
+  weather-icon-exceptional: url("/hacsfiles/themes/zeno-themes/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -1640,7 +1640,7 @@ Caule Light Aqua:
 
 
 
-Caule Light Green:
+Zeno Light Green:
 
   # Change the value below 8px to 0px to remove the rounded corners
   ha-card-border-radius: 8px
@@ -1702,21 +1702,21 @@ Caule Light Green:
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
   #Animated icons
-  weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
-  weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
-  weather-icon-fog: url("/hacsfiles/themes/caule-themes-pack-1/fog.svg")
-  weather-icon-lightning: url("/hacsfiles/themes/caule-themes-pack-1/lightning.svg")
-  weather-icon-lightning-rainy: url("/hacsfiles/themes/caule-themes-pack-1/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("/hacsfiles/themes/caule-themes-pack-1/partlycloudy.svg")
-  weather-icon-pouring: url("/hacsfiles/themes/caule-themes-pack-1/pouring.svg")
-  weather-icon-rainy: url("/hacsfiles/themes/caule-themes-pack-1/rainy.svg")
-  weather-icon-hail: url("/hacsfiles/themes/caule-themes-pack-1/hail.svg")
-  weather-icon-snowy: url("/hacsfiles/themes/caule-themes-pack-1/snowy.svg")
-  weather-icon-snowy-rainy: url("/hacsfiles/themes/caule-themes-pack-1/snowy-rainy.svg")
-  weather-icon-sunny: url("/hacsfiles/themes/caule-themes-pack-1/sunny.svg")
-  weather-icon-windy: url("/hacsfiles/themes/caule-themes-pack-1/windy.svg")
-  weather-icon-windy-variant: url("/hacsfiles/themes/caule-themes-pack-1/windy-variant.svg")
-  weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
+  weather-icon-clear-night: url("/hacsfiles/themes/zeno-themes/clear-night.svg")
+  weather-icon-cloudy: url("/hacsfiles/themes/zeno-themes/cloudy.svg")
+  weather-icon-fog: url("/hacsfiles/themes/zeno-themes/fog.svg")
+  weather-icon-lightning: url("/hacsfiles/themes/zeno-themes/lightning.svg")
+  weather-icon-lightning-rainy: url("/hacsfiles/themes/zeno-themes/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/hacsfiles/themes/zeno-themes/partlycloudy.svg")
+  weather-icon-pouring: url("/hacsfiles/themes/zeno-themes/pouring.svg")
+  weather-icon-rainy: url("/hacsfiles/themes/zeno-themes/rainy.svg")
+  weather-icon-hail: url("/hacsfiles/themes/zeno-themes/hail.svg")
+  weather-icon-snowy: url("/hacsfiles/themes/zeno-themes/snowy.svg")
+  weather-icon-snowy-rainy: url("/hacsfiles/themes/zeno-themes/snowy-rainy.svg")
+  weather-icon-sunny: url("/hacsfiles/themes/zeno-themes/sunny.svg")
+  weather-icon-windy: url("/hacsfiles/themes/zeno-themes/windy.svg")
+  weather-icon-windy-variant: url("/hacsfiles/themes/zeno-themes/windy-variant.svg")
+  weather-icon-exceptional: url("/hacsfiles/themes/zeno-themes/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -1754,7 +1754,7 @@ Caule Light Green:
 
 
 
-Caule Light Yellow:
+Zeno Light Yellow:
 
   # Change the value below 8px to 0px to remove the rounded corners
   ha-card-border-radius: 8px
@@ -1816,21 +1816,21 @@ Caule Light Yellow:
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
   #Animated icons
-  weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
-  weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
-  weather-icon-fog: url("/hacsfiles/themes/caule-themes-pack-1/fog.svg")
-  weather-icon-lightning: url("/hacsfiles/themes/caule-themes-pack-1/lightning.svg")
-  weather-icon-lightning-rainy: url("/hacsfiles/themes/caule-themes-pack-1/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("/hacsfiles/themes/caule-themes-pack-1/partlycloudy.svg")
-  weather-icon-pouring: url("/hacsfiles/themes/caule-themes-pack-1/pouring.svg")
-  weather-icon-rainy: url("/hacsfiles/themes/caule-themes-pack-1/rainy.svg")
-  weather-icon-hail: url("/hacsfiles/themes/caule-themes-pack-1/hail.svg")
-  weather-icon-snowy: url("/hacsfiles/themes/caule-themes-pack-1/snowy.svg")
-  weather-icon-snowy-rainy: url("/hacsfiles/themes/caule-themes-pack-1/snowy-rainy.svg")
-  weather-icon-sunny: url("/hacsfiles/themes/caule-themes-pack-1/sunny.svg")
-  weather-icon-windy: url("/hacsfiles/themes/caule-themes-pack-1/windy.svg")
-  weather-icon-windy-variant: url("/hacsfiles/themes/caule-themes-pack-1/windy-variant.svg")
-  weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
+  weather-icon-clear-night: url("/hacsfiles/themes/zeno-themes/clear-night.svg")
+  weather-icon-cloudy: url("/hacsfiles/themes/zeno-themes/cloudy.svg")
+  weather-icon-fog: url("/hacsfiles/themes/zeno-themes/fog.svg")
+  weather-icon-lightning: url("/hacsfiles/themes/zeno-themes/lightning.svg")
+  weather-icon-lightning-rainy: url("/hacsfiles/themes/zeno-themes/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/hacsfiles/themes/zeno-themes/partlycloudy.svg")
+  weather-icon-pouring: url("/hacsfiles/themes/zeno-themes/pouring.svg")
+  weather-icon-rainy: url("/hacsfiles/themes/zeno-themes/rainy.svg")
+  weather-icon-hail: url("/hacsfiles/themes/zeno-themes/hail.svg")
+  weather-icon-snowy: url("/hacsfiles/themes/zeno-themes/snowy.svg")
+  weather-icon-snowy-rainy: url("/hacsfiles/themes/zeno-themes/snowy-rainy.svg")
+  weather-icon-sunny: url("/hacsfiles/themes/zeno-themes/sunny.svg")
+  weather-icon-windy: url("/hacsfiles/themes/zeno-themes/windy.svg")
+  weather-icon-windy-variant: url("/hacsfiles/themes/zeno-themes/windy-variant.svg")
+  weather-icon-exceptional: url("/hacsfiles/themes/zeno-themes/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -1868,7 +1868,7 @@ Caule Light Yellow:
 
 
 
-Caule Light Orange:
+Zeno Light Orange:
 
   # Change the value below 8px to 0px to remove the rounded corners
   ha-card-border-radius: 8px
@@ -1930,21 +1930,21 @@ Caule Light Orange:
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
   #Animated icons
-  weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
-  weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
-  weather-icon-fog: url("/hacsfiles/themes/caule-themes-pack-1/fog.svg")
-  weather-icon-lightning: url("/hacsfiles/themes/caule-themes-pack-1/lightning.svg")
-  weather-icon-lightning-rainy: url("/hacsfiles/themes/caule-themes-pack-1/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("/hacsfiles/themes/caule-themes-pack-1/partlycloudy.svg")
-  weather-icon-pouring: url("/hacsfiles/themes/caule-themes-pack-1/pouring.svg")
-  weather-icon-rainy: url("/hacsfiles/themes/caule-themes-pack-1/rainy.svg")
-  weather-icon-hail: url("/hacsfiles/themes/caule-themes-pack-1/hail.svg")
-  weather-icon-snowy: url("/hacsfiles/themes/caule-themes-pack-1/snowy.svg")
-  weather-icon-snowy-rainy: url("/hacsfiles/themes/caule-themes-pack-1/snowy-rainy.svg")
-  weather-icon-sunny: url("/hacsfiles/themes/caule-themes-pack-1/sunny.svg")
-  weather-icon-windy: url("/hacsfiles/themes/caule-themes-pack-1/windy.svg")
-  weather-icon-windy-variant: url("/hacsfiles/themes/caule-themes-pack-1/windy-variant.svg")
-  weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
+  weather-icon-clear-night: url("/hacsfiles/themes/zeno-themes/clear-night.svg")
+  weather-icon-cloudy: url("/hacsfiles/themes/zeno-themes/cloudy.svg")
+  weather-icon-fog: url("/hacsfiles/themes/zeno-themes/fog.svg")
+  weather-icon-lightning: url("/hacsfiles/themes/zeno-themes/lightning.svg")
+  weather-icon-lightning-rainy: url("/hacsfiles/themes/zeno-themes/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/hacsfiles/themes/zeno-themes/partlycloudy.svg")
+  weather-icon-pouring: url("/hacsfiles/themes/zeno-themes/pouring.svg")
+  weather-icon-rainy: url("/hacsfiles/themes/zeno-themes/rainy.svg")
+  weather-icon-hail: url("/hacsfiles/themes/zeno-themes/hail.svg")
+  weather-icon-snowy: url("/hacsfiles/themes/zeno-themes/snowy.svg")
+  weather-icon-snowy-rainy: url("/hacsfiles/themes/zeno-themes/snowy-rainy.svg")
+  weather-icon-sunny: url("/hacsfiles/themes/zeno-themes/sunny.svg")
+  weather-icon-windy: url("/hacsfiles/themes/zeno-themes/windy.svg")
+  weather-icon-windy-variant: url("/hacsfiles/themes/zeno-themes/windy-variant.svg")
+  weather-icon-exceptional: url("/hacsfiles/themes/zeno-themes/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -1982,7 +1982,7 @@ Caule Light Orange:
 
 
 
-Caule Light Coral:
+Zeno Light Coral:
 
   # Change the value below 8px to 0px to remove the rounded corners
   ha-card-border-radius: 8px
@@ -2044,21 +2044,21 @@ Caule Light Coral:
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
   #Animated icons
-  weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
-  weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
-  weather-icon-fog: url("/hacsfiles/themes/caule-themes-pack-1/fog.svg")
-  weather-icon-lightning: url("/hacsfiles/themes/caule-themes-pack-1/lightning.svg")
-  weather-icon-lightning-rainy: url("/hacsfiles/themes/caule-themes-pack-1/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("/hacsfiles/themes/caule-themes-pack-1/partlycloudy.svg")
-  weather-icon-pouring: url("/hacsfiles/themes/caule-themes-pack-1/pouring.svg")
-  weather-icon-rainy: url("/hacsfiles/themes/caule-themes-pack-1/rainy.svg")
-  weather-icon-hail: url("/hacsfiles/themes/caule-themes-pack-1/hail.svg")
-  weather-icon-snowy: url("/hacsfiles/themes/caule-themes-pack-1/snowy.svg")
-  weather-icon-snowy-rainy: url("/hacsfiles/themes/caule-themes-pack-1/snowy-rainy.svg")
-  weather-icon-sunny: url("/hacsfiles/themes/caule-themes-pack-1/sunny.svg")
-  weather-icon-windy: url("/hacsfiles/themes/caule-themes-pack-1/windy.svg")
-  weather-icon-windy-variant: url("/hacsfiles/themes/caule-themes-pack-1/windy-variant.svg")
-  weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
+  weather-icon-clear-night: url("/hacsfiles/themes/zeno-themes/clear-night.svg")
+  weather-icon-cloudy: url("/hacsfiles/themes/zeno-themes/cloudy.svg")
+  weather-icon-fog: url("/hacsfiles/themes/zeno-themes/fog.svg")
+  weather-icon-lightning: url("/hacsfiles/themes/zeno-themes/lightning.svg")
+  weather-icon-lightning-rainy: url("/hacsfiles/themes/zeno-themes/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/hacsfiles/themes/zeno-themes/partlycloudy.svg")
+  weather-icon-pouring: url("/hacsfiles/themes/zeno-themes/pouring.svg")
+  weather-icon-rainy: url("/hacsfiles/themes/zeno-themes/rainy.svg")
+  weather-icon-hail: url("/hacsfiles/themes/zeno-themes/hail.svg")
+  weather-icon-snowy: url("/hacsfiles/themes/zeno-themes/snowy.svg")
+  weather-icon-snowy-rainy: url("/hacsfiles/themes/zeno-themes/snowy-rainy.svg")
+  weather-icon-sunny: url("/hacsfiles/themes/zeno-themes/sunny.svg")
+  weather-icon-windy: url("/hacsfiles/themes/zeno-themes/windy.svg")
+  weather-icon-windy-variant: url("/hacsfiles/themes/zeno-themes/windy-variant.svg")
+  weather-icon-exceptional: url("/hacsfiles/themes/zeno-themes/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -2096,7 +2096,7 @@ Caule Light Coral:
 
 
 
-Caule Light Pink:
+Zeno Light Pink:
 
   # Change the value below 8px to 0px to remove the rounded corners
   ha-card-border-radius: 8px
@@ -2158,21 +2158,21 @@ Caule Light Pink:
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
   #Animated icons
-  weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
-  weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
-  weather-icon-fog: url("/hacsfiles/themes/caule-themes-pack-1/fog.svg")
-  weather-icon-lightning: url("/hacsfiles/themes/caule-themes-pack-1/lightning.svg")
-  weather-icon-lightning-rainy: url("/hacsfiles/themes/caule-themes-pack-1/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("/hacsfiles/themes/caule-themes-pack-1/partlycloudy.svg")
-  weather-icon-pouring: url("/hacsfiles/themes/caule-themes-pack-1/pouring.svg")
-  weather-icon-rainy: url("/hacsfiles/themes/caule-themes-pack-1/rainy.svg")
-  weather-icon-hail: url("/hacsfiles/themes/caule-themes-pack-1/hail.svg")
-  weather-icon-snowy: url("/hacsfiles/themes/caule-themes-pack-1/snowy.svg")
-  weather-icon-snowy-rainy: url("/hacsfiles/themes/caule-themes-pack-1/snowy-rainy.svg")
-  weather-icon-sunny: url("/hacsfiles/themes/caule-themes-pack-1/sunny.svg")
-  weather-icon-windy: url("/hacsfiles/themes/caule-themes-pack-1/windy.svg")
-  weather-icon-windy-variant: url("/hacsfiles/themes/caule-themes-pack-1/windy-variant.svg")
-  weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
+  weather-icon-clear-night: url("/hacsfiles/themes/zeno-themes/clear-night.svg")
+  weather-icon-cloudy: url("/hacsfiles/themes/zeno-themes/cloudy.svg")
+  weather-icon-fog: url("/hacsfiles/themes/zeno-themes/fog.svg")
+  weather-icon-lightning: url("/hacsfiles/themes/zeno-themes/lightning.svg")
+  weather-icon-lightning-rainy: url("/hacsfiles/themes/zeno-themes/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/hacsfiles/themes/zeno-themes/partlycloudy.svg")
+  weather-icon-pouring: url("/hacsfiles/themes/zeno-themes/pouring.svg")
+  weather-icon-rainy: url("/hacsfiles/themes/zeno-themes/rainy.svg")
+  weather-icon-hail: url("/hacsfiles/themes/zeno-themes/hail.svg")
+  weather-icon-snowy: url("/hacsfiles/themes/zeno-themes/snowy.svg")
+  weather-icon-snowy-rainy: url("/hacsfiles/themes/zeno-themes/snowy-rainy.svg")
+  weather-icon-sunny: url("/hacsfiles/themes/zeno-themes/sunny.svg")
+  weather-icon-windy: url("/hacsfiles/themes/zeno-themes/windy.svg")
+  weather-icon-windy-variant: url("/hacsfiles/themes/zeno-themes/windy-variant.svg")
+  weather-icon-exceptional: url("/hacsfiles/themes/zeno-themes/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -2210,7 +2210,7 @@ Caule Light Pink:
 
 
 
-Caule Light Gray:
+Zeno Light Gray:
 
   # Change the value below 8px to 0px to remove the rounded corners
   ha-card-border-radius: 8px
@@ -2272,21 +2272,21 @@ Caule Light Gray:
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
   #Animated icons
-  weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
-  weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
-  weather-icon-fog: url("/hacsfiles/themes/caule-themes-pack-1/fog.svg")
-  weather-icon-lightning: url("/hacsfiles/themes/caule-themes-pack-1/lightning.svg")
-  weather-icon-lightning-rainy: url("/hacsfiles/themes/caule-themes-pack-1/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("/hacsfiles/themes/caule-themes-pack-1/partlycloudy.svg")
-  weather-icon-pouring: url("/hacsfiles/themes/caule-themes-pack-1/pouring.svg")
-  weather-icon-rainy: url("/hacsfiles/themes/caule-themes-pack-1/rainy.svg")
-  weather-icon-hail: url("/hacsfiles/themes/caule-themes-pack-1/hail.svg")
-  weather-icon-snowy: url("/hacsfiles/themes/caule-themes-pack-1/snowy.svg")
-  weather-icon-snowy-rainy: url("/hacsfiles/themes/caule-themes-pack-1/snowy-rainy.svg")
-  weather-icon-sunny: url("/hacsfiles/themes/caule-themes-pack-1/sunny.svg")
-  weather-icon-windy: url("/hacsfiles/themes/caule-themes-pack-1/windy.svg")
-  weather-icon-windy-variant: url("/hacsfiles/themes/caule-themes-pack-1/windy-variant.svg")
-  weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
+  weather-icon-clear-night: url("/hacsfiles/themes/zeno-themes/clear-night.svg")
+  weather-icon-cloudy: url("/hacsfiles/themes/zeno-themes/cloudy.svg")
+  weather-icon-fog: url("/hacsfiles/themes/zeno-themes/fog.svg")
+  weather-icon-lightning: url("/hacsfiles/themes/zeno-themes/lightning.svg")
+  weather-icon-lightning-rainy: url("/hacsfiles/themes/zeno-themes/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/hacsfiles/themes/zeno-themes/partlycloudy.svg")
+  weather-icon-pouring: url("/hacsfiles/themes/zeno-themes/pouring.svg")
+  weather-icon-rainy: url("/hacsfiles/themes/zeno-themes/rainy.svg")
+  weather-icon-hail: url("/hacsfiles/themes/zeno-themes/hail.svg")
+  weather-icon-snowy: url("/hacsfiles/themes/zeno-themes/snowy.svg")
+  weather-icon-snowy-rainy: url("/hacsfiles/themes/zeno-themes/snowy-rainy.svg")
+  weather-icon-sunny: url("/hacsfiles/themes/zeno-themes/sunny.svg")
+  weather-icon-windy: url("/hacsfiles/themes/zeno-themes/windy.svg")
+  weather-icon-windy-variant: url("/hacsfiles/themes/zeno-themes/windy-variant.svg")
+  weather-icon-exceptional: url("/hacsfiles/themes/zeno-themes/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
