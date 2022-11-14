@@ -162,13 +162,3 @@ Now just insert the selector code in your interface.
 ## 4th Step - Configuring the "Backend-selected" theme
 
 Change the theme in the user's profile to "Backend-selected". This way, all connected devices with the theme "Backend-selected" will have their themes changed synchronously with the theme selector you just created.
-
-
-
-### Now just enjoy it!
-### If everything goes well, [send a print](http://api.whatsapp.com/send?phone=5565999593909) ☺️
-
-<a href="https://www.buymeacoffee.com/orickcorreia" target="_blank">
-<img src="https://cdn.buymeacoffee.com/buttons/lato-black.png"  width="200px" alt="Buy Me A Coffee" ></a>
-
-Icons created by [amCharts](https://www.amcharts.com/free-animated-svg-weather-icons/) and modified by me.
