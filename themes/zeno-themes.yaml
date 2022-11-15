@@ -49,7 +49,7 @@ Zeno Dark Rose:
   graph-color: var(--primary-color)
   primary-background-color: "#1D1B1E"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
+  divider-color: "transparent" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
   # Text colors
   primary-text-color: "#e5e5e5"
@@ -163,7 +163,7 @@ Zeno Dark Purple:
   graph-color: var(--primary-color)
   primary-background-color: "#1D1B1E"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
+  divider-color: "transparent" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
   # Text colors
   primary-text-color: "#e5e5e5"
@@ -277,7 +277,7 @@ Zeno Dark Blue:
   graph-color: var(--primary-color)
   primary-background-color: "#1D1B1E"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
+  divider-color: "transparent" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
   # Text colors
   primary-text-color: "#e5e5e5"
@@ -391,7 +391,7 @@ Zeno Dark Aqua:
   graph-color: var(--primary-color)
   primary-background-color: "#1D1B1E"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
+  divider-color: "transparent" #divider-color: "transparent" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
   # Text colors
   primary-text-color: "#e5e5e5"
@@ -505,7 +505,7 @@ Zeno Dark Green:
   graph-color: var(--primary-color)
   primary-background-color: "#1D1B1E"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
+  divider-color: "transparent" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
   # Text colors
   primary-text-color: "#e5e5e5"
@@ -619,7 +619,7 @@ Zeno Dark Yellow:
   graph-color: var(--primary-color)
   primary-background-color: "#1D1B1E"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
+  divider-color: "transparent" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
   # Text colors
   primary-text-color: "#e5e5e5"
@@ -734,7 +734,7 @@ Zeno Dark Orange:
   graph-color: var(--primary-color)
   primary-background-color: "#1D1B1E"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
+  divider-color: "transparent" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
   # Text colors
   primary-text-color: "#e5e5e5"
@@ -848,7 +848,7 @@ Zeno Dark Coral:
   graph-color: var(--primary-color)
   primary-background-color: "#1D1B1E"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
+  divider-color: "transparent" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
   # Text colors
   primary-text-color: "#e5e5e5"
@@ -962,7 +962,7 @@ Zeno Dark Pink:
   graph-color: var(--primary-color)
   primary-background-color: "#1D1B1E"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
+  divider-color: "transparent" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
   # Text colors
   primary-text-color: "#e5e5e5"
@@ -1076,7 +1076,7 @@ Zeno Dark Gray:
   graph-color: var(--primary-color)
   primary-background-color: "#1D1B1E"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
+  divider-color: "transparent" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
   # Text colors
   primary-text-color: "#e5e5e5"
@@ -1194,7 +1194,7 @@ Zeno Light Rose:
   graph-color: var(--primary-color)
   primary-background-color: "#f2f2f2"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
+  divider-color: "transparent" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
   # Text colors
   primary-text-color: "#4d4d4d" #primary-text-color: "#7f7f7f"
@@ -1308,7 +1308,7 @@ Zeno Light Purple:
   graph-color: var(--primary-color)
   primary-background-color: "#f2f2f2"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
+  divider-color: "transparent" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
   # Text colors
   primary-text-color: "#4d4d4d" #primary-text-color: "#7f7f7f"
@@ -1422,7 +1422,7 @@ Zeno Light Blue:
   graph-color: var(--primary-color)
   primary-background-color: "#f2f2f2"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
+  divider-color: "transparent" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
   # Text colors
   primary-text-color: "#4d4d4d" #primary-text-color: "#7f7f7f"
@@ -1536,7 +1536,7 @@ Zeno Light Aqua:
   graph-color: var(--primary-color)
   primary-background-color: "#f2f2f2"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
+  divider-color: "transparent" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
   # Text colors
   primary-text-color: "#4d4d4d" #primary-text-color: "#7f7f7f"
@@ -1650,7 +1650,7 @@ Zeno Light Green:
   graph-color: var(--primary-color)
   primary-background-color: "#f2f2f2"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
+  divider-color: "transparent" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
   # Text colors
   primary-text-color: "#4d4d4d" #primary-text-color: "#7f7f7f"
@@ -1764,7 +1764,7 @@ Zeno Light Yellow:
   graph-color: var(--primary-color)
   primary-background-color: "#f2f2f2"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
+  divider-color: "transparent" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
   # Text colors
   primary-text-color: "#4d4d4d" #primary-text-color: "#7f7f7f"
@@ -1878,7 +1878,7 @@ Zeno Light Orange:
   graph-color: var(--primary-color)
   primary-background-color: "#f2f2f2"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
+  divider-color: "transparent" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
   # Text colors
   primary-text-color: "#4d4d4d" #primary-text-color: "#7f7f7f"
@@ -1992,7 +1992,7 @@ Zeno Light Coral:
   graph-color: var(--primary-color)
   primary-background-color: "#f2f2f2"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
+  divider-color: "transparent" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
   # Text colors
   primary-text-color: "#4d4d4d" #primary-text-color: "#7f7f7f"
@@ -2106,7 +2106,7 @@ Zeno Light Pink:
   graph-color: var(--primary-color)
   primary-background-color: "#f2f2f2"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
+  divider-color: "transparent" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
   # Text colors
   primary-text-color: "#4d4d4d" #primary-text-color: "#7f7f7f"
@@ -2220,7 +2220,7 @@ Zeno Light Gray:
   graph-color: var(--primary-color)
   primary-background-color: "#f2f2f2"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
+  divider-color: "transparent" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
   # Text colors
   primary-text-color: "#4d4d4d" #primary-text-color: "#7f7f7f"
