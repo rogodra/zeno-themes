@@ -88,7 +88,7 @@ Zeno Dark Rose:
   # Cards colors
   ha-card-background: "#2A282D"
   paper-card-background-color: var(--ha-card-background)
-  paper-listbox-background-color: var(--primary-background-color)
+  paper-listbox-background-color: var(--divider-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
@@ -209,7 +209,7 @@ Zeno Dark Purple:
   # Cards colors
   ha-card-background: "#2A282D"
   paper-card-background-color: var(--ha-card-background)
-  paper-listbox-background-color: var(--primary-background-color)
+  paper-listbox-background-color: var(--divider-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
@@ -326,7 +326,7 @@ Zeno Dark Blue:
   # Cards colors
   ha-card-background: "#2A282D"
   paper-card-background-color: var(--ha-card-background)
-  paper-listbox-background-color: var(--primary-background-color)
+  paper-listbox-background-color: var(--divider-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
@@ -443,7 +443,7 @@ Zeno Dark Aqua:
   # Cards colors
   ha-card-background: "#2A282D"
   paper-card-background-color: var(--ha-card-background)
-  paper-listbox-background-color: var(--primary-background-color)
+  paper-listbox-background-color: var(--divider-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
@@ -560,7 +560,7 @@ Zeno Dark Green:
   # Cards colors
   ha-card-background: "#2A282D"
   paper-card-background-color: var(--ha-card-background)
-  paper-listbox-background-color: var(--primary-background-color)
+  paper-listbox-background-color: var(--divider-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
@@ -677,7 +677,7 @@ Zeno Dark Yellow:
   # Cards colors
   ha-card-background: "#2A282D"
   paper-card-background-color: var(--ha-card-background)
-  paper-listbox-background-color: var(--primary-background-color)
+  paper-listbox-background-color: var(--divider-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
@@ -795,7 +795,7 @@ Zeno Dark Orange:
   # Cards colors
   ha-card-background: "#2A282D"
   paper-card-background-color: var(--ha-card-background)
-  paper-listbox-background-color: var(--primary-background-color)
+  paper-listbox-background-color: var(--divider-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
@@ -912,7 +912,7 @@ Zeno Dark Coral:
   # Cards colors
   ha-card-background: "#2A282D"
   paper-card-background-color: var(--ha-card-background)
-  paper-listbox-background-color: var(--primary-background-color)
+  paper-listbox-background-color: var(--divider-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
@@ -1029,7 +1029,7 @@ Zeno Dark Pink:
   # Cards colors
   ha-card-background: "#2A282D"
   paper-card-background-color: var(--ha-card-background)
-  paper-listbox-background-color: var(--primary-background-color)
+  paper-listbox-background-color: var(--divider-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
@@ -1146,7 +1146,7 @@ Zeno Dark Gray:
   # Cards colors 
   ha-card-background: "#2A282D"
   paper-card-background-color: var(--ha-card-background)
-  paper-listbox-background-color: var(--primary-background-color)
+  paper-listbox-background-color: var(--divider-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
@@ -1267,7 +1267,7 @@ Zeno Light Rose:
   # Cards colors
   ha-card-background: "#ffffff"
   paper-card-background-color: var(--ha-card-background)
-  paper-listbox-background-color: var(--primary-background-color)
+  paper-listbox-background-color: var(--divider-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
@@ -1384,7 +1384,7 @@ Zeno Light Purple:
   # Cards colors
   ha-card-background: "#ffffff"
   paper-card-background-color: var(--ha-card-background)
-  paper-listbox-background-color: var(--primary-background-color)
+  paper-listbox-background-color: var(--divider-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
@@ -1501,7 +1501,7 @@ Zeno Light Blue:
   # Cards colors
   ha-card-background: "#ffffff"
   paper-card-background-color: var(--ha-card-background)
-  paper-listbox-background-color: var(--primary-background-color)
+  paper-listbox-background-color: var(--divider-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
@@ -1618,7 +1618,7 @@ Zeno Light Aqua:
   # Cards colors
   ha-card-background: "#ffffff"
   paper-card-background-color: var(--ha-card-background)
-  paper-listbox-background-color: var(--primary-background-color)
+  paper-listbox-background-color: var(--divider-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
@@ -1735,7 +1735,7 @@ Zeno Light Green:
   # Cards colors
   ha-card-background: "#ffffff"
   paper-card-background-color: var(--ha-card-background)
-  paper-listbox-background-color: var(--primary-background-color)
+  paper-listbox-background-color: var(--divider-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
@@ -1852,7 +1852,7 @@ Zeno Light Yellow:
   # Cards colors
   ha-card-background: "#ffffff"
   paper-card-background-color: var(--ha-card-background)
-  paper-listbox-background-color: var(--primary-background-color)
+  paper-listbox-background-color: var(--divider-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
@@ -1969,7 +1969,7 @@ Zeno Light Orange:
   # Cards colors
   ha-card-background: "#ffffff"
   paper-card-background-color: var(--ha-card-background)
-  paper-listbox-background-color: var(--primary-background-color)
+  paper-listbox-background-color: var(--divider-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
@@ -2086,7 +2086,7 @@ Zeno Light Coral:
   # Cards colors
   ha-card-background: "#ffffff"
   paper-card-background-color: var(--ha-card-background)
-  paper-listbox-background-color: var(--primary-background-color)
+  paper-listbox-background-color: var(--divider-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
@@ -2203,7 +2203,7 @@ Zeno Light Pink:
   # Cards colors
   ha-card-background: "#ffffff"
   paper-card-background-color: var(--ha-card-background)
-  paper-listbox-background-color: var(--primary-background-color)
+  paper-listbox-background-color: var(--divider-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
@@ -2320,7 +2320,7 @@ Zeno Light Gray:
   # Cards colors
   ha-card-background: "#ffffff"
   paper-card-background-color: var(--ha-card-background)
-  paper-listbox-background-color: var(--primary-background-color)
+  paper-listbox-background-color: var(--divider-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
