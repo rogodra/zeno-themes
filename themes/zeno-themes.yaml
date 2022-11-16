@@ -49,8 +49,10 @@ Zeno Dark Rose:
   graph-color: var(--primary-color)
   primary-background-color: "#1D1B1E"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "transparent" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
+  divider-color: "#373737" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
+  border-color: "transparent"
+  ha-card-border-color: "transparent" #Cantonades de les targetes
   # Text colors
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
@@ -163,8 +165,10 @@ Zeno Dark Purple:
   graph-color: var(--primary-color)
   primary-background-color: "#1D1B1E"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "transparent" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
+  divider-color: "#373737" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
+  border-color: "transparent"
+  ha-card-border-color: "transparent" #Cantonades de les targetes
   # Text colors
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
@@ -277,8 +281,10 @@ Zeno Dark Blue:
   graph-color: var(--primary-color)
   primary-background-color: "#1D1B1E"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "transparent" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
+  divider-color: "#373737" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
+  border-color: "transparent"
+  ha-card-border-color: "transparent" #Cantonades de les targetes
   # Text colors
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
@@ -391,8 +397,10 @@ Zeno Dark Aqua:
   graph-color: var(--primary-color)
   primary-background-color: "#1D1B1E"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "transparent" #divider-color: "transparent" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
+  divider-color: "#373737" #divider-color: "transparent" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
+  border-color: "transparent"
+  ha-card-border-color: "transparent" #Cantonades de les targetes
   # Text colors
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
@@ -505,8 +513,10 @@ Zeno Dark Green:
   graph-color: var(--primary-color)
   primary-background-color: "#1D1B1E"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "transparent" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
+  divider-color: "#373737" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
+  border-color: "transparent"
+  ha-card-border-color: "transparent" #Cantonades de les targetes
   # Text colors
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
@@ -619,8 +629,10 @@ Zeno Dark Yellow:
   graph-color: var(--primary-color)
   primary-background-color: "#1D1B1E"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "transparent" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
+  divider-color: "#373737" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
+  border-color: "transparent"
+  ha-card-border-color: "transparent" #Cantonades de les targetes
   # Text colors
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
@@ -734,8 +746,10 @@ Zeno Dark Orange:
   graph-color: var(--primary-color)
   primary-background-color: "#1D1B1E"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "transparent" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
+  divider-color: "#373737" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
+  border-color: "transparent"
+  ha-card-border-color: "transparent" #Cantonades de les targetes
   # Text colors
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
@@ -848,8 +862,10 @@ Zeno Dark Coral:
   graph-color: var(--primary-color)
   primary-background-color: "#1D1B1E"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "transparent" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
+  divider-color: "#373737" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
+  border-color: "transparent"
+  ha-card-border-color: "transparent" #Cantonades de les targetes
   # Text colors
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
@@ -962,8 +978,10 @@ Zeno Dark Pink:
   graph-color: var(--primary-color)
   primary-background-color: "#1D1B1E"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "transparent" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
+  divider-color: "#373737" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
+  border-color: "transparent"
+  ha-card-border-color: "transparent" #Cantonades de les targetes
   # Text colors
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
@@ -1076,8 +1094,10 @@ Zeno Dark Gray:
   graph-color: var(--primary-color)
   primary-background-color: "#1D1B1E"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "transparent" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
+  divider-color: "#373737" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
+  border-color: "transparent"
+  ha-card-border-color: "transparent" #Cantonades de les targetes
   # Text colors
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
@@ -1194,8 +1214,10 @@ Zeno Light Rose:
   graph-color: var(--primary-color)
   primary-background-color: "#f2f2f2"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "transparent" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
+  divider-color: "#dddddd" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
+  border-color: "transparent"
+  ha-card-border-color: "transparent" #Cantonades de les targetes
   # Text colors
   primary-text-color: "#4d4d4d" #primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
@@ -1308,8 +1330,10 @@ Zeno Light Purple:
   graph-color: var(--primary-color)
   primary-background-color: "#f2f2f2"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "transparent" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
+  divider-color: "#dddddd" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
+  border-color: "transparent"
+  ha-card-border-color: "transparent" #Cantonades de les targetes
   # Text colors
   primary-text-color: "#4d4d4d" #primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
@@ -1422,8 +1446,10 @@ Zeno Light Blue:
   graph-color: var(--primary-color)
   primary-background-color: "#f2f2f2"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "transparent" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
+  divider-color: "#dddddd" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
+  border-color: "transparent"
+  ha-card-border-color: "transparent" #Cantonades de les targetes
   # Text colors
   primary-text-color: "#4d4d4d" #primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
@@ -1536,8 +1562,10 @@ Zeno Light Aqua:
   graph-color: var(--primary-color)
   primary-background-color: "#f2f2f2"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "transparent" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
+  divider-color: "#dddddd" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
+  border-color: "transparent"
+  ha-card-border-color: "transparent" #Cantonades de les targetes
   # Text colors
   primary-text-color: "#4d4d4d" #primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
@@ -1650,10 +1678,10 @@ Zeno Light Green:
   graph-color: var(--primary-color)
   primary-background-color: "#f2f2f2"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "#ababab"
+  divider-color: "#dddddd" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
   border-color: "transparent"
-  ha-card-border-color: "transparent"
+  ha-card-border-color: "transparent" #Cantonades de les targetes
   # Text colors
   primary-text-color: "#4d4d4d" #primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
@@ -1766,8 +1794,10 @@ Zeno Light Yellow:
   graph-color: var(--primary-color)
   primary-background-color: "#f2f2f2"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "transparent" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
+  divider-color: "#dddddd" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
+  border-color: "transparent"
+  ha-card-border-color: "transparent" #Cantonades de les targetes
   # Text colors
   primary-text-color: "#4d4d4d" #primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
@@ -1880,8 +1910,10 @@ Zeno Light Orange:
   graph-color: var(--primary-color)
   primary-background-color: "#f2f2f2"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "transparent" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
+  divider-color: "#dddddd" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
+  border-color: "transparent"
+  ha-card-border-color: "transparent" #Cantonades de les targetes
   # Text colors
   primary-text-color: "#4d4d4d" #primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
@@ -1994,8 +2026,10 @@ Zeno Light Coral:
   graph-color: var(--primary-color)
   primary-background-color: "#f2f2f2"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "transparent" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
+  divider-color: "#dddddd" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
+  border-color: "transparent"
+  ha-card-border-color: "transparent" #Cantonades de les targetes
   # Text colors
   primary-text-color: "#4d4d4d" #primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
@@ -2108,8 +2142,10 @@ Zeno Light Pink:
   graph-color: var(--primary-color)
   primary-background-color: "#f2f2f2"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "transparent" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
+  divider-color: "#dddddd" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
+  border-color: "transparent"
+  ha-card-border-color: "transparent" #Cantonades de les targetes
   # Text colors
   primary-text-color: "#4d4d4d" #primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
@@ -2222,8 +2258,10 @@ Zeno Light Gray:
   graph-color: var(--primary-color)
   primary-background-color: "#f2f2f2"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "transparent" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
+  divider-color: "#dddddd" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
+  border-color: "transparent"
+  ha-card-border-color: "transparent" #Cantonades de les targetes
   # Text colors
   primary-text-color: "#4d4d4d" #primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
