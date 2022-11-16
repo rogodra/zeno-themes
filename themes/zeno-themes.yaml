@@ -147,6 +147,10 @@ Zeno Dark Rose:
   mdc-select-idle-line-color: var(--primary-text-color)
   mdc-select-dropdown-icon-color: var(--secondary-text-color)
   mdc-select-hover-line-color: var(--primary-color)
+  # custom:canvas-gauge-card
+  box-shadow: "transparent"
+  canvas-gauge-card-box-shadow: "transparent"
+  canvas-gauge-card-border-radius: var(--ha-card-border-radius)
 
 
 
