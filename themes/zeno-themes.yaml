@@ -51,7 +51,7 @@ Zeno Dark Rose:
   secondary-background-color: var(--primary-background-color)
   divider-color: "#373737" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
-  border-color: "transparent"
+  #border-color: "transparent"
   ha-card-border-color: none #Cantonades de les targetes
   ha-card-border-width: 0px
   # Text colors
@@ -172,7 +172,7 @@ Zeno Dark Purple:
   secondary-background-color: var(--primary-background-color)
   divider-color: "#373737" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
-  border-color: "transparent"
+  #border-color: "transparent"
   ha-card-border-color: none #Cantonades de les targetes
   ha-card-border-width: 0px
   # Text colors
@@ -289,7 +289,7 @@ Zeno Dark Blue:
   secondary-background-color: var(--primary-background-color)
   divider-color: "#373737" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
-  border-color: "transparent"
+  #border-color: "transparent"
   ha-card-border-color: none #Cantonades de les targetes
   ha-card-border-width: 0px
   # Text colors
@@ -406,7 +406,7 @@ Zeno Dark Aqua:
   secondary-background-color: var(--primary-background-color)
   divider-color: "#373737" #divider-color: "transparent" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
-  border-color: "transparent"
+  #border-color: "transparent"
   ha-card-border-color: none #Cantonades de les targetes
   ha-card-border-width: 0px
   # Text colors
@@ -523,7 +523,7 @@ Zeno Dark Green:
   secondary-background-color: var(--primary-background-color)
   divider-color: "#373737" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
-  border-color: "transparent"
+  #border-color: "transparent"
   ha-card-border-color: none #Cantonades de les targetes
   ha-card-border-width: 0px
   # Text colors
@@ -640,7 +640,7 @@ Zeno Dark Yellow:
   secondary-background-color: var(--primary-background-color)
   divider-color: "#373737" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
-  border-color: "transparent"
+  #border-color: "transparent"
   ha-card-border-color: none #Cantonades de les targetes
   ha-card-border-width: 0px
   # Text colors
@@ -758,7 +758,7 @@ Zeno Dark Orange:
   secondary-background-color: var(--primary-background-color)
   divider-color: "#373737" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
-  border-color: "transparent"
+  #border-color: "transparent"
   ha-card-border-color: none #Cantonades de les targetes
   ha-card-border-width: 0px
   # Text colors
@@ -875,7 +875,7 @@ Zeno Dark Coral:
   secondary-background-color: var(--primary-background-color)
   divider-color: "#373737" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
-  border-color: "transparent"
+  #border-color: "transparent"
   ha-card-border-color: none #Cantonades de les targetes
   ha-card-border-width: 0px
   # Text colors
@@ -992,7 +992,7 @@ Zeno Dark Pink:
   secondary-background-color: var(--primary-background-color)
   divider-color: "#373737" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
-  border-color: "transparent"
+  #border-color: "transparent"
   ha-card-border-color: none #Cantonades de les targetes
   ha-card-border-width: 0px
   # Text colors
@@ -1109,7 +1109,7 @@ Zeno Dark Gray:
   secondary-background-color: var(--primary-background-color)
   divider-color: "#373737" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
-  border-color: "transparent"
+  #border-color: "transparent"
   ha-card-border-color: none #Cantonades de les targetes
   ha-card-border-width: 0px
   # Text colors
@@ -1230,7 +1230,7 @@ Zeno Light Rose:
   secondary-background-color: var(--primary-background-color)
   divider-color: "#dddddd" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
-  border-color: "transparent"
+  #border-color: "transparent"
   ha-card-border-color: none #Cantonades de les targetes
   ha-card-border-width: 0px
   # Text colors
@@ -1347,7 +1347,7 @@ Zeno Light Purple:
   secondary-background-color: var(--primary-background-color)
   divider-color: "#dddddd" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
-  border-color: "transparent"
+  #border-color: "transparent"
   ha-card-border-color: none #Cantonades de les targetes
   ha-card-border-width: 0px
   # Text colors
@@ -1464,7 +1464,7 @@ Zeno Light Blue:
   secondary-background-color: var(--primary-background-color)
   divider-color: "#dddddd" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
-  border-color: "transparent"
+  #border-color: "transparent"
   ha-card-border-color: none #Cantonades de les targetes
   ha-card-border-width: 0px
   # Text colors
@@ -1581,7 +1581,7 @@ Zeno Light Aqua:
   secondary-background-color: var(--primary-background-color)
   divider-color: "#dddddd" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
-  border-color: "transparent"
+  #border-color: "transparent"
   ha-card-border-color: none #Cantonades de les targetes
   ha-card-border-width: 0px
   # Text colors
@@ -1698,7 +1698,7 @@ Zeno Light Green:
   secondary-background-color: var(--primary-background-color)
   divider-color: "#dddddd" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
-  border-color: "transparent"
+  #border-color: "transparent"
   ha-card-border-color: none #Cantonades de les targetes
   ha-card-border-width: 0px
   # Text colors
@@ -1815,7 +1815,7 @@ Zeno Light Yellow:
   secondary-background-color: var(--primary-background-color)
   divider-color: "#dddddd" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
-  border-color: "transparent"
+  #border-color: "transparent"
   ha-card-border-color: none #Cantonades de les targetes
   ha-card-border-width: 0px
   # Text colors
@@ -1932,7 +1932,7 @@ Zeno Light Orange:
   secondary-background-color: var(--primary-background-color)
   divider-color: "#dddddd" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
-  border-color: "transparent"
+  #border-color: "transparent"
   ha-card-border-color: none #Cantonades de les targetes
   ha-card-border-width: 0px
   # Text colors
@@ -2049,7 +2049,7 @@ Zeno Light Coral:
   secondary-background-color: var(--primary-background-color)
   divider-color: "#dddddd" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
-  border-color: "transparent"
+  #border-color: "transparent"
   ha-card-border-color: none #Cantonades de les targetes
   ha-card-border-width: 0px
   # Text colors
@@ -2166,7 +2166,7 @@ Zeno Light Pink:
   secondary-background-color: var(--primary-background-color)
   divider-color: "#dddddd" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
-  border-color: "transparent"
+  #border-color: "transparent"
   ha-card-border-color: none #Cantonades de les targetes
   ha-card-border-width: 0px
   # Text colors
@@ -2283,7 +2283,7 @@ Zeno Light Gray:
   secondary-background-color: var(--primary-background-color)
   divider-color: "#dddddd" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
-  border-color: "transparent"
+  #border-color: "transparent"
   ha-card-border-color: none #Cantonades de les targetes
   ha-card-border-width: 0px
   # Text colors
