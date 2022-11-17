@@ -53,7 +53,7 @@ Zeno Dark Rose:
   disabled-color: "#666666"
   #border-color: "transparent"
   ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
-  ha-card-border-width: 1px # perque
+  ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
   #input-hover-line-color: var(--accent-color) #nou, no se si fa alguna cosa
   # Text colors
   primary-text-color: "#e5e5e5"
@@ -129,6 +129,7 @@ Zeno Dark Rose:
   google-blue-500: var(--primary-color)
   accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
+  hacs-border-width: 1px
   # New
   mdc-text-field-fill-color: var(--ha-card-background)
   mdc-text-field-ink-color: var(--primary-text-color)
