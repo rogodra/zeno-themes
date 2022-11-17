@@ -52,9 +52,9 @@ Zeno Dark Rose:
   divider-color: "#373737" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
   #border-color: "transparent"
-  ha-card-border-color: var(--divider-color) #none #Cantonades de les targetes
-  ha-card-border-width: 0px
-  input-hover-line-color: var(--accent-color) #nou, no se si fa alguna cosa
+  ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
+  ha-card-border-width: 0px # perque
+  #input-hover-line-color: var(--accent-color) #nou, no se si fa alguna cosa
   # Text colors
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
