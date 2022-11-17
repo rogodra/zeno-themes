@@ -52,8 +52,8 @@ Zeno Dark Rose:
   divider-color: "#373737" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
   #border-color: "transparent"
-  ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
-  ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
+  #ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
+  #ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
   #input-hover-line-color: var(--accent-color) #nou, no se si fa alguna cosa
   # Text colors
   primary-text-color: "#e5e5e5"
@@ -129,7 +129,6 @@ Zeno Dark Rose:
   google-blue-500: var(--primary-color)
   accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
-  hacs-border-width: 1px
   # New
   mdc-text-field-fill-color: var(--ha-card-background)
   mdc-text-field-ink-color: var(--primary-text-color)
@@ -150,8 +149,12 @@ Zeno Dark Rose:
   mdc-select-idle-line-color: var(--primary-text-color)
   mdc-select-dropdown-icon-color: var(--secondary-text-color)
   mdc-select-hover-line-color: var(--primary-color)
-
-
+  card-mod-theme: zeno-themes
+  card-mod-root-yaml: |
+    .: |
+      ha-app-layout {
+        --ha-card-border-width: 0px;
+      }
 
 
 ##########################################
@@ -171,8 +174,9 @@ Zeno Dark Purple:
   divider-color: "#373737" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
   #border-color: "transparent"
-  ha-card-border-color: none #Cantonades de les targetes
-  ha-card-border-width: 0px
+  ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
+  ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
+  #input-hover-line-color: var(--accent-color) #nou, no se si fa alguna cosa
   # Text colors
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
@@ -288,8 +292,9 @@ Zeno Dark Blue:
   divider-color: "#373737" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
   #border-color: "transparent"
-  ha-card-border-color: none #Cantonades de les targetes
-  ha-card-border-width: 0px
+  ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
+  ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
+  #input-hover-line-color: var(--accent-color) #nou, no se si fa alguna cosa
   # Text colors
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
@@ -405,8 +410,9 @@ Zeno Dark Aqua:
   divider-color: "#373737" #divider-color: "transparent" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
   #border-color: "transparent"
-  ha-card-border-color: none #Cantonades de les targetes
-  ha-card-border-width: 0px
+  ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
+  ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
+  #input-hover-line-color: var(--accent-color) #nou, no se si fa alguna cosa
   # Text colors
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
@@ -522,8 +528,9 @@ Zeno Dark Green:
   divider-color: "#373737" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
   #border-color: "transparent"
-  ha-card-border-color: none #Cantonades de les targetes
-  ha-card-border-width: 0px
+  ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
+  ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
+  #input-hover-line-color: var(--accent-color) #nou, no se si fa alguna cosa
   # Text colors
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
@@ -639,8 +646,9 @@ Zeno Dark Yellow:
   divider-color: "#373737" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
   #border-color: "transparent"
-  ha-card-border-color: none #Cantonades de les targetes
-  ha-card-border-width: 0px
+  ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
+  ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
+  #input-hover-line-color: var(--accent-color) #nou, no se si fa alguna cosa
   # Text colors
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
@@ -757,8 +765,9 @@ Zeno Dark Orange:
   divider-color: "#373737" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
   #border-color: "transparent"
-  ha-card-border-color: none #Cantonades de les targetes
-  ha-card-border-width: 0px
+  ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
+  ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
+  #input-hover-line-color: var(--accent-color) #nou, no se si fa alguna cosa
   # Text colors
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
@@ -874,8 +883,9 @@ Zeno Dark Coral:
   divider-color: "#373737" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
   #border-color: "transparent"
-  ha-card-border-color: none #Cantonades de les targetes
-  ha-card-border-width: 0px
+  ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
+  ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
+  #input-hover-line-color: var(--accent-color) #nou, no se si fa alguna cosa
   # Text colors
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
@@ -991,8 +1001,9 @@ Zeno Dark Pink:
   divider-color: "#373737" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
   #border-color: "transparent"
-  ha-card-border-color: none #Cantonades de les targetes
-  ha-card-border-width: 0px
+  ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
+  ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
+  #input-hover-line-color: var(--accent-color) #nou, no se si fa alguna cosa
   # Text colors
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
@@ -1108,8 +1119,9 @@ Zeno Dark Gray:
   divider-color: "#373737" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
   #border-color: "transparent"
-  ha-card-border-color: none #Cantonades de les targetes
-  ha-card-border-width: 0px
+  ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
+  ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
+  #input-hover-line-color: var(--accent-color) #nou, no se si fa alguna cosa
   # Text colors
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
@@ -1229,8 +1241,9 @@ Zeno Light Rose:
   divider-color: "#dddddd" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
   #border-color: "transparent"
-  ha-card-border-color: none #Cantonades de les targetes
-  ha-card-border-width: 0px
+  ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
+  ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
+  #input-hover-line-color: var(--accent-color) #nou, no se si fa alguna cosa
   # Text colors
   primary-text-color: "#4d4d4d" #primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
@@ -1346,8 +1359,9 @@ Zeno Light Purple:
   divider-color: "#dddddd" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
   #border-color: "transparent"
-  ha-card-border-color: none #Cantonades de les targetes
-  ha-card-border-width: 0px
+  ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
+  ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
+  #input-hover-line-color: var(--accent-color) #nou, no se si fa alguna cosa
   # Text colors
   primary-text-color: "#4d4d4d" #primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
@@ -1463,8 +1477,9 @@ Zeno Light Blue:
   divider-color: "#dddddd" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
   #border-color: "transparent"
-  ha-card-border-color: none #Cantonades de les targetes
-  ha-card-border-width: 0px
+  ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
+  ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
+  #input-hover-line-color: var(--accent-color) #nou, no se si fa alguna cosa
   # Text colors
   primary-text-color: "#4d4d4d" #primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
@@ -1580,8 +1595,9 @@ Zeno Light Aqua:
   divider-color: "#dddddd" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
   #border-color: "transparent"
-  ha-card-border-color: none #Cantonades de les targetes
-  ha-card-border-width: 0px
+  ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
+  ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
+  #input-hover-line-color: var(--accent-color) #nou, no se si fa alguna cosa
   # Text colors
   primary-text-color: "#4d4d4d" #primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
@@ -1697,8 +1713,9 @@ Zeno Light Green:
   divider-color: "#dddddd" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
   #border-color: "transparent"
-  ha-card-border-color: none #Cantonades de les targetes
-  ha-card-border-width: 0px
+  ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
+  ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
+  #input-hover-line-color: var(--accent-color) #nou, no se si fa alguna cosa
   # Text colors
   primary-text-color: "#4d4d4d" #primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
@@ -1814,8 +1831,9 @@ Zeno Light Yellow:
   divider-color: "#dddddd" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
   #border-color: "transparent"
-  ha-card-border-color: none #Cantonades de les targetes
-  ha-card-border-width: 0px
+  ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
+  ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
+  #input-hover-line-color: var(--accent-color) #nou, no se si fa alguna cosa
   # Text colors
   primary-text-color: "#4d4d4d" #primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
@@ -1931,8 +1949,9 @@ Zeno Light Orange:
   divider-color: "#dddddd" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
   #border-color: "transparent"
-  ha-card-border-color: none #Cantonades de les targetes
-  ha-card-border-width: 0px
+  ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
+  ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
+  #input-hover-line-color: var(--accent-color) #nou, no se si fa alguna cosa
   # Text colors
   primary-text-color: "#4d4d4d" #primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
@@ -2048,8 +2067,9 @@ Zeno Light Coral:
   divider-color: "#dddddd" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
   #border-color: "transparent"
-  ha-card-border-color: none #Cantonades de les targetes
-  ha-card-border-width: 0px
+  ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
+  ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
+  #input-hover-line-color: var(--accent-color) #nou, no se si fa alguna cosa
   # Text colors
   primary-text-color: "#4d4d4d" #primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
@@ -2165,8 +2185,9 @@ Zeno Light Pink:
   divider-color: "#dddddd" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
   #border-color: "transparent"
-  ha-card-border-color: none #Cantonades de les targetes
-  ha-card-border-width: 0px
+  ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
+  ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
+  #input-hover-line-color: var(--accent-color) #nou, no se si fa alguna cosa
   # Text colors
   primary-text-color: "#4d4d4d" #primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
@@ -2282,8 +2303,9 @@ Zeno Light Gray:
   divider-color: "#dddddd" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
   #border-color: "transparent"
-  ha-card-border-color: none #Cantonades de les targetes
-  ha-card-border-width: 0px
+  ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
+  ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
+  #input-hover-line-color: var(--accent-color) #nou, no se si fa alguna cosa
   # Text colors
   primary-text-color: "#4d4d4d" #primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
