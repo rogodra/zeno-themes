@@ -52,8 +52,8 @@ Zeno Dark Rose:
   divider-color: "#373737" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
   #border-color: "transparent"
-  #ha-card-border-color: none #Cantonades de les targetes
-  ha-card-border-width: 0px
+  ha-card-border-color: none #Cantonades de les targetes
+  #ha-card-border-width: 0px
   # Text colors
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
