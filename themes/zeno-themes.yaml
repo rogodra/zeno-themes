@@ -53,7 +53,7 @@ Zeno Dark Rose:
   disabled-color: "#666666"
   #border-color: "transparent"
   ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
-  ha-card-border-width: 0px # perque
+  ha-card-border-width: 1px # perque
   #input-hover-line-color: var(--accent-color) #nou, no se si fa alguna cosa
   # Text colors
   primary-text-color: "#e5e5e5"
