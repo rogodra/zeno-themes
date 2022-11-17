@@ -1,5 +1,5 @@
 #     Zeno Themes
-#     Release 0.0.1
+#     Release 0.0.6
 #
 #
 #     - Zeno Dark Rose
@@ -28,6 +28,9 @@
 #   # Place the backgrounds in the folder  config/www/images/backgrounds 
 #   lovelace-background: 'center / cover no-repeat url("/hacsfiles/themes/zeno-themes/rose.jpg") fixed'
 
+# Resfrescar tema, fer serivir el servei de:
+# frontend.reload_themes
+
 
 #                             
 #    #####     ##    #####   #    # 
@@ -52,8 +55,8 @@ Zeno Dark Rose:
   divider-color: "#373737" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
   #border-color: "transparent"
-  #ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
-  #ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
+  ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
+  ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
   #input-hover-line-color: var(--accent-color) #nou, no se si fa alguna cosa
   # Text colors
   primary-text-color: "#e5e5e5"
@@ -149,12 +152,14 @@ Zeno Dark Rose:
   mdc-select-idle-line-color: var(--primary-text-color)
   mdc-select-dropdown-icon-color: var(--secondary-text-color)
   mdc-select-hover-line-color: var(--primary-color)
-  card-mod-theme: zeno-themes
-  card-mod-root-yaml: |
-    .: |
-      ha-app-layout {
-        --ha-card-border-width: 0px;
-      }
+  ## Funciona, treu només els recuadres del frontend, pero no de la resta de llocs, trobo millor la opció feta a dalt, tot i que peta en el borde de HACS
+  ## Es nescessari tenir instal·lat el CARD MOD
+  # card-mod-theme: "Zeno Dark Rose"
+  # card-mod-root-yaml: |
+  #   .: |
+  #     ha-app-layout {
+  #       --ha-card-border-width: 0px;
+  #     }
 
 
 ##########################################
