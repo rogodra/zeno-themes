@@ -51,10 +51,10 @@ Zeno Dark Rose:
   secondary-background-color: var(--primary-background-color)
   divider-color: "#373737" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
-  #border-color: "transparent"
-  ha-card-border-color: none #Cantonades de les targetes
+  border-color: "#aa3151" #"transparent"
+  ha-card-border-color: "#aa3151" #none #Cantonades de les targetes
   ha-card-border-width: 0px
-  input-hover-line-color: var(--accent-color)
+  input-hover-line-color: var(--accent-color) #nou, no se si fa alguna cosa
   # Text colors
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
