@@ -58,6 +58,8 @@ Zeno Dark Rose:
   ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
   ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
   #input-hover-line-color: var(--accent-color) #nou, no se si fa alguna cosa
+  sidebar-background-color: var(--primary-background-color) #Barra lateral esquerra
+  mdc-theme-surface: "#221f23"#"#212022" #popup
   # Text colors
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
@@ -182,6 +184,8 @@ Zeno Dark Purple:
   ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
   ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
   #input-hover-line-color: var(--accent-color) #nou, no se si fa alguna cosa
+  sidebar-background-color: var(--primary-background-color) #Barra lateral esquerra
+  mdc-theme-surface: "#221f23"#"#212022" #popup
   # Text colors
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
@@ -300,6 +304,8 @@ Zeno Dark Blue:
   ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
   ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
   #input-hover-line-color: var(--accent-color) #nou, no se si fa alguna cosa
+  sidebar-background-color: var(--primary-background-color) #Barra lateral esquerra
+  mdc-theme-surface: "#221f23"#"#212022" #popup
   # Text colors
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
@@ -412,12 +418,14 @@ Zeno Dark Aqua:
   graph-color: var(--primary-color)
   primary-background-color: "#1D1B1E"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "#373737" #divider-color: "transparent" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
+  divider-color: "#373737" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
   #border-color: "transparent"
   ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
   ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
   #input-hover-line-color: var(--accent-color) #nou, no se si fa alguna cosa
+  sidebar-background-color: var(--primary-background-color) #Barra lateral esquerra
+  mdc-theme-surface: "#221f23"#"#212022" #popup
   # Text colors
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
@@ -536,6 +544,8 @@ Zeno Dark Green:
   ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
   ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
   #input-hover-line-color: var(--accent-color) #nou, no se si fa alguna cosa
+  sidebar-background-color: var(--primary-background-color) #Barra lateral esquerra
+  mdc-theme-surface: "#221f23"#"#212022" #popup
   # Text colors
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
@@ -654,6 +664,8 @@ Zeno Dark Yellow:
   ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
   ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
   #input-hover-line-color: var(--accent-color) #nou, no se si fa alguna cosa
+  sidebar-background-color: var(--primary-background-color) #Barra lateral esquerra
+  mdc-theme-surface: "#221f23"#"#212022" #popup
   # Text colors
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
@@ -773,6 +785,8 @@ Zeno Dark Orange:
   ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
   ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
   #input-hover-line-color: var(--accent-color) #nou, no se si fa alguna cosa
+  sidebar-background-color: var(--primary-background-color) #Barra lateral esquerra
+  mdc-theme-surface: "#221f23"#"#212022" #popup
   # Text colors
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
@@ -891,6 +905,8 @@ Zeno Dark Coral:
   ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
   ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
   #input-hover-line-color: var(--accent-color) #nou, no se si fa alguna cosa
+  sidebar-background-color: var(--primary-background-color) #Barra lateral esquerra
+  mdc-theme-surface: "#221f23"#"#212022" #popup
   # Text colors
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
@@ -1009,6 +1025,8 @@ Zeno Dark Pink:
   ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
   ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
   #input-hover-line-color: var(--accent-color) #nou, no se si fa alguna cosa
+  sidebar-background-color: var(--primary-background-color) #Barra lateral esquerra
+  mdc-theme-surface: "#221f23"#"#212022" #popup
   # Text colors
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
@@ -1127,6 +1145,8 @@ Zeno Dark Gray:
   ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
   ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
   #input-hover-line-color: var(--accent-color) #nou, no se si fa alguna cosa
+  sidebar-background-color: var(--primary-background-color) #Barra lateral esquerra
+  mdc-theme-surface: "#221f23"#"#212022" #popup
   # Text colors
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
