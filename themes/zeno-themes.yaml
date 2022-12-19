@@ -36,6 +36,8 @@
 # a:
 # this._config.color_on="var(--primary-color)"
 
+# --paper-item-icon-color ➡ --pbs-button-color
+# --paper-item-icon-active-color ➡ --pbs-button-active-color
 
 #                             
 #    #####     ##    #####   #    # 
@@ -82,6 +84,8 @@ Zeno Dark Rose:
   rgb-state-switch-color: var(--rgb-primary-color) #SWITCH per posar els icones actius igual que el color del tema, per defecte es 'var(--rgb-amber-color)'
   rgb-state-script-color: var(--rgb-primary-color) #SCRIPT per defecte es 'var(--rgb-amber-color)'
   rgb-state-binary-sensor-color: var(--rgb-primary-color) #BINARY per defecte es 'var(--rgb-blue-color)'
+  rgb-state-group-color: var(--rgb-primary-color) #GROUP per defecte es 'var(--rgb-amber-color)'
+  rgb-state-automation-color: var(--rgb-primary-color) #AUTOMATION per defecte es 'var(--rgb-amber-color)'
   #state-icon-active-color: var(--primary-color) #ja no s'utilitza
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
@@ -211,7 +215,9 @@ Zeno Dark Purple:
   rgb-state-switch-color: var(--rgb-primary-color) #SWITCH per posar els icones actius igual que el color del tema, per defecte es 'var(--rgb-amber-color)'
   rgb-state-script-color: var(--rgb-primary-color) #SCRIPT per defecte es 'var(--rgb-amber-color)'
   rgb-state-binary-sensor-color: var(--rgb-primary-color) #BINARY per defecte es 'var(--rgb-blue-color)'
-  #state-icon-active-color: var(--primary-color)
+  rgb-state-group-color: var(--rgb-primary-color) #GROUP per defecte es 'var(--rgb-amber-color)'
+  rgb-state-automation-color: var(--rgb-primary-color) #AUTOMATION per defecte es 'var(--rgb-amber-color)'
+  #state-icon-active-color: var(--primary-color) #ja no s'utilitza
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
   mini-media-player-icon-color: var(--primary-color)
@@ -334,7 +340,9 @@ Zeno Dark Blue:
   rgb-state-switch-color: var(--rgb-primary-color) #SWITCH per posar els icones actius igual que el color del tema, per defecte es 'var(--rgb-amber-color)'
   rgb-state-script-color: var(--rgb-primary-color) #SCRIPT per defecte es 'var(--rgb-amber-color)'
   rgb-state-binary-sensor-color: var(--rgb-primary-color) #BINARY per defecte es 'var(--rgb-blue-color)'
-  #state-icon-active-color: var(--primary-color)
+  rgb-state-group-color: var(--rgb-primary-color) #GROUP per defecte es 'var(--rgb-amber-color)'
+  rgb-state-automation-color: var(--rgb-primary-color) #AUTOMATION per defecte es 'var(--rgb-amber-color)'
+  #state-icon-active-color: var(--primary-color) #ja no s'utilitza
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
   mini-media-player-icon-color: var(--primary-color)
@@ -457,7 +465,9 @@ Zeno Dark Aqua:
   rgb-state-switch-color: var(--rgb-primary-color) #SWITCH per posar els icones actius igual que el color del tema, per defecte es 'var(--rgb-amber-color)'
   rgb-state-script-color: var(--rgb-primary-color) #SCRIPT per defecte es 'var(--rgb-amber-color)'
   rgb-state-binary-sensor-color: var(--rgb-primary-color) #BINARY per defecte es 'var(--rgb-blue-color)'
-  #state-icon-active-color: var(--primary-color)
+  rgb-state-group-color: var(--rgb-primary-color) #GROUP per defecte es 'var(--rgb-amber-color)'
+  rgb-state-automation-color: var(--rgb-primary-color) #AUTOMATION per defecte es 'var(--rgb-amber-color)'
+  #state-icon-active-color: var(--primary-color) #ja no s'utilitza
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
   mini-media-player-icon-color: var(--primary-color)
@@ -580,7 +590,9 @@ Zeno Dark Green:
   rgb-state-switch-color: var(--rgb-primary-color) #SWITCH per posar els icones actius igual que el color del tema, per defecte es 'var(--rgb-amber-color)'
   rgb-state-script-color: var(--rgb-primary-color) #SCRIPT per defecte es 'var(--rgb-amber-color)'
   rgb-state-binary-sensor-color: var(--rgb-primary-color) #BINARY per defecte es 'var(--rgb-blue-color)'
-  #state-icon-active-color: var(--primary-color)
+  rgb-state-group-color: var(--rgb-primary-color) #GROUP per defecte es 'var(--rgb-amber-color)'
+  rgb-state-automation-color: var(--rgb-primary-color) #AUTOMATION per defecte es 'var(--rgb-amber-color)'
+  #state-icon-active-color: var(--primary-color) #ja no s'utilitza
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
   mini-media-player-icon-color: var(--primary-color)
@@ -703,7 +715,9 @@ Zeno Dark Yellow:
   rgb-state-switch-color: var(--rgb-primary-color) #SWITCH per posar els icones actius igual que el color del tema, per defecte es 'var(--rgb-amber-color)'
   rgb-state-script-color: var(--rgb-primary-color) #SCRIPT per defecte es 'var(--rgb-amber-color)'
   rgb-state-binary-sensor-color: var(--rgb-primary-color) #BINARY per defecte es 'var(--rgb-blue-color)'
-  #state-icon-active-color: var(--primary-color)
+  rgb-state-group-color: var(--rgb-primary-color) #GROUP per defecte es 'var(--rgb-amber-color)'
+  rgb-state-automation-color: var(--rgb-primary-color) #AUTOMATION per defecte es 'var(--rgb-amber-color)'
+  #state-icon-active-color: var(--primary-color) #ja no s'utilitza
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
   mini-media-player-icon-color: var(--primary-color)
@@ -827,7 +841,9 @@ Zeno Dark Orange:
   rgb-state-switch-color: var(--rgb-primary-color) #SWITCH per posar els icones actius igual que el color del tema, per defecte es 'var(--rgb-amber-color)'
   rgb-state-script-color: var(--rgb-primary-color) #SCRIPT per defecte es 'var(--rgb-amber-color)'
   rgb-state-binary-sensor-color: var(--rgb-primary-color) #BINARY per defecte es 'var(--rgb-blue-color)'
-  #state-icon-active-color: var(--primary-color)
+  rgb-state-group-color: var(--rgb-primary-color) #GROUP per defecte es 'var(--rgb-amber-color)'
+  rgb-state-automation-color: var(--rgb-primary-color) #AUTOMATION per defecte es 'var(--rgb-amber-color)'
+  #state-icon-active-color: var(--primary-color) #ja no s'utilitza
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
   mini-media-player-icon-color: var(--primary-color)
@@ -950,7 +966,9 @@ Zeno Dark Coral:
   rgb-state-switch-color: var(--rgb-primary-color) #SWITCH per posar els icones actius igual que el color del tema, per defecte es 'var(--rgb-amber-color)'
   rgb-state-script-color: var(--rgb-primary-color) #SCRIPT per defecte es 'var(--rgb-amber-color)'
   rgb-state-binary-sensor-color: var(--rgb-primary-color) #BINARY per defecte es 'var(--rgb-blue-color)'
-  #state-icon-active-color: var(--primary-color)
+  rgb-state-group-color: var(--rgb-primary-color) #GROUP per defecte es 'var(--rgb-amber-color)'
+  rgb-state-automation-color: var(--rgb-primary-color) #AUTOMATION per defecte es 'var(--rgb-amber-color)'
+  #state-icon-active-color: var(--primary-color) #ja no s'utilitza
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
   mini-media-player-icon-color: var(--primary-color)
@@ -1073,7 +1091,9 @@ Zeno Dark Pink:
   rgb-state-switch-color: var(--rgb-primary-color) #SWITCH per posar els icones actius igual que el color del tema, per defecte es 'var(--rgb-amber-color)'
   rgb-state-script-color: var(--rgb-primary-color) #SCRIPT per defecte es 'var(--rgb-amber-color)'
   rgb-state-binary-sensor-color: var(--rgb-primary-color) #BINARY per defecte es 'var(--rgb-blue-color)'
-  #state-icon-active-color: var(--primary-color)
+  rgb-state-group-color: var(--rgb-primary-color) #GROUP per defecte es 'var(--rgb-amber-color)'
+  rgb-state-automation-color: var(--rgb-primary-color) #AUTOMATION per defecte es 'var(--rgb-amber-color)'
+  #state-icon-active-color: var(--primary-color) #ja no s'utilitza
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
   mini-media-player-icon-color: var(--primary-color)
@@ -1196,7 +1216,9 @@ Zeno Dark Gray:
   rgb-state-switch-color: var(--rgb-primary-color) #SWITCH per posar els icones actius igual que el color del tema, per defecte es 'var(--rgb-amber-color)'
   rgb-state-script-color: var(--rgb-primary-color) #SCRIPT per defecte es 'var(--rgb-amber-color)'
   rgb-state-binary-sensor-color: var(--rgb-primary-color) #BINARY per defecte es 'var(--rgb-blue-color)'
-  #state-icon-active-color: var(--primary-color)
+  rgb-state-group-color: var(--rgb-primary-color) #GROUP per defecte es 'var(--rgb-amber-color)'
+  rgb-state-automation-color: var(--rgb-primary-color) #AUTOMATION per defecte es 'var(--rgb-amber-color)'
+  #state-icon-active-color: var(--primary-color) #ja no s'utilitza
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
   mini-media-player-icon-color: var(--primary-color)
@@ -1323,7 +1345,9 @@ Zeno Light Rose:
   rgb-state-switch-color: var(--rgb-primary-color) #SWITCH per posar els icones actius igual que el color del tema, per defecte es 'var(--rgb-amber-color)'
   rgb-state-script-color: var(--rgb-primary-color) #SCRIPT per defecte es 'var(--rgb-amber-color)'
   rgb-state-binary-sensor-color: var(--rgb-primary-color) #BINARY per defecte es 'var(--rgb-blue-color)'
-  #state-icon-active-color: var(--primary-color)
+  rgb-state-group-color: var(--rgb-primary-color) #GROUP per defecte es 'var(--rgb-amber-color)'
+  rgb-state-automation-color: var(--rgb-primary-color) #AUTOMATION per defecte es 'var(--rgb-amber-color)'
+  #state-icon-active-color: var(--primary-color) #ja no s'utilitza
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
   mini-media-player-icon-color: var(--primary-color)
@@ -1446,7 +1470,9 @@ Zeno Light Purple:
   rgb-state-switch-color: var(--rgb-primary-color) #SWITCH per posar els icones actius igual que el color del tema, per defecte es 'var(--rgb-amber-color)'
   rgb-state-script-color: var(--rgb-primary-color) #SCRIPT per defecte es 'var(--rgb-amber-color)'
   rgb-state-binary-sensor-color: var(--rgb-primary-color) #BINARY per defecte es 'var(--rgb-blue-color)'
-  #state-icon-active-color: var(--primary-color)
+  rgb-state-group-color: var(--rgb-primary-color) #GROUP per defecte es 'var(--rgb-amber-color)'
+  rgb-state-automation-color: var(--rgb-primary-color) #AUTOMATION per defecte es 'var(--rgb-amber-color)'
+  #state-icon-active-color: var(--primary-color) #ja no s'utilitza
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
   mini-media-player-icon-color: var(--primary-color)
@@ -1569,7 +1595,9 @@ Zeno Light Blue:
   rgb-state-switch-color: var(--rgb-primary-color) #SWITCH per posar els icones actius igual que el color del tema, per defecte es 'var(--rgb-amber-color)'
   rgb-state-script-color: var(--rgb-primary-color) #SCRIPT per defecte es 'var(--rgb-amber-color)'
   rgb-state-binary-sensor-color: var(--rgb-primary-color) #BINARY per defecte es 'var(--rgb-blue-color)'
-  #state-icon-active-color: var(--primary-color)
+  rgb-state-group-color: var(--rgb-primary-color) #GROUP per defecte es 'var(--rgb-amber-color)'
+  rgb-state-automation-color: var(--rgb-primary-color) #AUTOMATION per defecte es 'var(--rgb-amber-color)'
+  #state-icon-active-color: var(--primary-color) #ja no s'utilitza
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
   mini-media-player-icon-color: var(--primary-color)
@@ -1692,7 +1720,9 @@ Zeno Light Aqua:
   rgb-state-switch-color: var(--rgb-primary-color) #SWITCH per posar els icones actius igual que el color del tema, per defecte es 'var(--rgb-amber-color)'
   rgb-state-script-color: var(--rgb-primary-color) #SCRIPT per defecte es 'var(--rgb-amber-color)'
   rgb-state-binary-sensor-color: var(--rgb-primary-color) #BINARY per defecte es 'var(--rgb-blue-color)'
-  #state-icon-active-color: var(--primary-color)
+  rgb-state-group-color: var(--rgb-primary-color) #GROUP per defecte es 'var(--rgb-amber-color)'
+  rgb-state-automation-color: var(--rgb-primary-color) #AUTOMATION per defecte es 'var(--rgb-amber-color)'
+  #state-icon-active-color: var(--primary-color) #ja no s'utilitza
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
   mini-media-player-icon-color: var(--primary-color)
@@ -1815,7 +1845,9 @@ Zeno Light Green:
   rgb-state-switch-color: var(--rgb-primary-color) #SWITCH per posar els icones actius igual que el color del tema, per defecte es 'var(--rgb-amber-color)'
   rgb-state-script-color: var(--rgb-primary-color) #SCRIPT per defecte es 'var(--rgb-amber-color)'
   rgb-state-binary-sensor-color: var(--rgb-primary-color) #BINARY per defecte es 'var(--rgb-blue-color)'
-  #state-icon-active-color: var(--primary-color)
+  rgb-state-group-color: var(--rgb-primary-color) #GROUP per defecte es 'var(--rgb-amber-color)'
+  rgb-state-automation-color: var(--rgb-primary-color) #AUTOMATION per defecte es 'var(--rgb-amber-color)'
+  #state-icon-active-color: var(--primary-color) #ja no s'utilitza
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
   mini-media-player-icon-color: var(--primary-color)
@@ -1938,7 +1970,9 @@ Zeno Light Yellow:
   rgb-state-switch-color: var(--rgb-primary-color) #SWITCH per posar els icones actius igual que el color del tema, per defecte es 'var(--rgb-amber-color)'
   rgb-state-script-color: var(--rgb-primary-color) #SCRIPT per defecte es 'var(--rgb-amber-color)'
   rgb-state-binary-sensor-color: var(--rgb-primary-color) #BINARY per defecte es 'var(--rgb-blue-color)'
-  #state-icon-active-color: var(--primary-color)
+  rgb-state-group-color: var(--rgb-primary-color) #GROUP per defecte es 'var(--rgb-amber-color)'
+  rgb-state-automation-color: var(--rgb-primary-color) #AUTOMATION per defecte es 'var(--rgb-amber-color)'
+  #state-icon-active-color: var(--primary-color) #ja no s'utilitza
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
   mini-media-player-icon-color: var(--primary-color)
@@ -2061,7 +2095,9 @@ Zeno Light Orange:
   rgb-state-switch-color: var(--rgb-primary-color) #SWITCH per posar els icones actius igual que el color del tema, per defecte es 'var(--rgb-amber-color)'
   rgb-state-script-color: var(--rgb-primary-color) #SCRIPT per defecte es 'var(--rgb-amber-color)'
   rgb-state-binary-sensor-color: var(--rgb-primary-color) #BINARY per defecte es 'var(--rgb-blue-color)'
-  #state-icon-active-color: var(--primary-color)
+  rgb-state-group-color: var(--rgb-primary-color) #GROUP per defecte es 'var(--rgb-amber-color)'
+  rgb-state-automation-color: var(--rgb-primary-color) #AUTOMATION per defecte es 'var(--rgb-amber-color)'
+  #state-icon-active-color: var(--primary-color) #ja no s'utilitza
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
   mini-media-player-icon-color: var(--primary-color)
@@ -2184,7 +2220,9 @@ Zeno Light Coral:
   rgb-state-switch-color: var(--rgb-primary-color) #SWITCH per posar els icones actius igual que el color del tema, per defecte es 'var(--rgb-amber-color)'
   rgb-state-script-color: var(--rgb-primary-color) #SCRIPT per defecte es 'var(--rgb-amber-color)'
   rgb-state-binary-sensor-color: var(--rgb-primary-color) #BINARY per defecte es 'var(--rgb-blue-color)'
-  #state-icon-active-color: var(--primary-color)
+  rgb-state-group-color: var(--rgb-primary-color) #GROUP per defecte es 'var(--rgb-amber-color)'
+  rgb-state-automation-color: var(--rgb-primary-color) #AUTOMATION per defecte es 'var(--rgb-amber-color)'
+  #state-icon-active-color: var(--primary-color) #ja no s'utilitza
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
   mini-media-player-icon-color: var(--primary-color)
@@ -2307,7 +2345,9 @@ Zeno Light Pink:
   rgb-state-switch-color: var(--rgb-primary-color) #SWITCH per posar els icones actius igual que el color del tema, per defecte es 'var(--rgb-amber-color)'
   rgb-state-script-color: var(--rgb-primary-color) #SCRIPT per defecte es 'var(--rgb-amber-color)'
   rgb-state-binary-sensor-color: var(--rgb-primary-color) #BINARY per defecte es 'var(--rgb-blue-color)'
-  #state-icon-active-color: var(--primary-color)
+  rgb-state-group-color: var(--rgb-primary-color) #GROUP per defecte es 'var(--rgb-amber-color)'
+  rgb-state-automation-color: var(--rgb-primary-color) #AUTOMATION per defecte es 'var(--rgb-amber-color)'
+  #state-icon-active-color: var(--primary-color) #ja no s'utilitza
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
   mini-media-player-icon-color: var(--primary-color)
@@ -2430,7 +2470,9 @@ Zeno Light Gray:
   rgb-state-switch-color: var(--rgb-primary-color) #SWITCH per posar els icones actius igual que el color del tema, per defecte es 'var(--rgb-amber-color)'
   rgb-state-script-color: var(--rgb-primary-color) #SCRIPT per defecte es 'var(--rgb-amber-color)'
   rgb-state-binary-sensor-color: var(--rgb-primary-color) #BINARY per defecte es 'var(--rgb-blue-color)'
-  #state-icon-active-color: var(--primary-color)
+  rgb-state-group-color: var(--rgb-primary-color) #GROUP per defecte es 'var(--rgb-amber-color)'
+  rgb-state-automation-color: var(--rgb-primary-color) #AUTOMATION per defecte es 'var(--rgb-amber-color)'
+  #state-icon-active-color: var(--primary-color) #ja no s'utilitza
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
   mini-media-player-icon-color: var(--primary-color)
