@@ -46,8 +46,6 @@ Now **restart your Home Assistant** and the themes will be available for use.
 We will create a theme selector to be implemented in your user interface. It is a practical way to change the theme instantly on all devices connected to your Home Assistant. See how it works in the gif below:
 
 
-![](https://raw.githubusercontent.com/rogodra/zeno-themes/master/docs/seletor.gif)
-
 ## 1st Step - Creating the input_select
 The input_select will be used to create the selection list with the themes that I created. <br>
 Insert this code into your file **configuration.yaml**<br>
@@ -119,7 +117,6 @@ Copy the code below and paste it into your file **automations.yaml**
 
 We will create a flow in Node-RED to define the theme automatically every time you choose a theme in your interface. It's very simple! Just download the .json file or copy the code and paste it into the Node-RED import window.
 
-![](https://raw.githubusercontent.com/rogodra/zeno-themes/master/docs/nodered.gif)
 
 [Click here to copy or download the code for Node-RED flows](https://github.com/rogodra/zeno-themes/blob/main/docs/seletor_theme_nodered.json)
 
