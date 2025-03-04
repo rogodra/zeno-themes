@@ -73,7 +73,7 @@ Zeno Dark Rose:
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
   text-on-state-color: var(--ha-card-background)
-  text-light-primary-color: var(--divider-color) #  text-light-primary-color: var(--primary-text-color)
+  text-light-primary-color: var(--primary-background-color) #  text-light-primary-color: var(--primary-text-color)
   ### Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -306,7 +306,7 @@ Zeno Dark Purple:
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
   text-on-state-color: var(--ha-card-background)
-  text-light-primary-color: var(--divider-color) #  text-light-primary-color: var(--primary-text-color)
+  text-light-primary-color: var(--primary-background-color) #  text-light-primary-color: var(--primary-text-color)
   ### Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -533,7 +533,7 @@ Zeno Dark Blue:
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
   text-on-state-color: var(--ha-card-background)
-  text-light-primary-color: var(--divider-color) #  text-light-primary-color: var(--primary-text-color)
+  text-light-primary-color: var(--primary-background-color) #  text-light-primary-color: var(--primary-text-color)
   ### Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -760,7 +760,7 @@ Zeno Dark Aqua:
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
   text-on-state-color: var(--ha-card-background)
-  text-light-primary-color: var(--divider-color) #  text-light-primary-color: var(--primary-text-color)
+  text-light-primary-color: var(--primary-background-color) #  text-light-primary-color: var(--primary-text-color)
   ### Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -987,7 +987,7 @@ Zeno Dark Green:
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
   text-on-state-color: var(--ha-card-background)
-  text-light-primary-color: var(--divider-color) #  text-light-primary-color: var(--primary-text-color)
+  text-light-primary-color: var(--primary-background-color) #  text-light-primary-color: var(--primary-text-color)
   ### Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -1214,7 +1214,7 @@ Zeno Dark Yellow:
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
   text-on-state-color: var(--ha-card-background)
-  text-light-primary-color: var(--divider-color) #  text-light-primary-color: var(--primary-text-color)
+  text-light-primary-color: var(--primary-background-color) #  text-light-primary-color: var(--primary-text-color)
   ### Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -1442,7 +1442,7 @@ Zeno Dark Orange:
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
   text-on-state-color: var(--ha-card-background)
-  text-light-primary-color: var(--divider-color) #  text-light-primary-color: var(--primary-text-color)
+  text-light-primary-color: var(--primary-background-color) #  text-light-primary-color: var(--primary-text-color)
   ### Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -1669,7 +1669,7 @@ Zeno Dark Coral:
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
   text-on-state-color: var(--ha-card-background)
-  text-light-primary-color: var(--divider-color) #  text-light-primary-color: var(--primary-text-color)
+  text-light-primary-color: var(--primary-background-color) #  text-light-primary-color: var(--primary-text-color)
   ### Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -1896,7 +1896,7 @@ Zeno Dark Pink:
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
   text-on-state-color: var(--ha-card-background)
-  text-light-primary-color: var(--divider-color) #  text-light-primary-color: var(--primary-text-color)
+  text-light-primary-color: var(--primary-background-color) #  text-light-primary-color: var(--primary-text-color)
   ### Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -2123,7 +2123,7 @@ Zeno Dark Gray:
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
   text-on-state-color: var(--ha-card-background)
-  text-light-primary-color: var(--divider-color) #  text-light-primary-color: var(--primary-text-color)
+  text-light-primary-color: var(--primary-background-color) #  text-light-primary-color: var(--primary-text-color)
   ### Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
