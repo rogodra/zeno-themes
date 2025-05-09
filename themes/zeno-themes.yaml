@@ -222,7 +222,7 @@ Zeno Dark Rose:
   ### Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+  card-background-color: var(--ha-card-background) #var(--primary-background-color)
   ### Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/zeno-themes/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/zeno-themes/cloudy.svg")
@@ -457,7 +457,7 @@ Zeno Dark Purple:
   ### Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+  card-background-color: var(--ha-card-background) #var(--primary-background-color)
   ### Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/zeno-themes/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/zeno-themes/cloudy.svg")
@@ -686,7 +686,7 @@ Zeno Dark Blue:
   ### Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+  card-background-color: var(--ha-card-background) #var(--primary-background-color)
   ### Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/zeno-themes/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/zeno-themes/cloudy.svg")
@@ -915,7 +915,7 @@ Zeno Dark Aqua:
   ### Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+  card-background-color: var(--ha-card-background) #var(--primary-background-color)
   ### Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/zeno-themes/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/zeno-themes/cloudy.svg")
@@ -1144,7 +1144,7 @@ Zeno Dark Green:
   ### Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+  card-background-color: var(--ha-card-background) #var(--primary-background-color)
   ### Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/zeno-themes/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/zeno-themes/cloudy.svg")
@@ -1373,7 +1373,7 @@ Zeno Dark Yellow:
   ### Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+  card-background-color: var(--ha-card-background) #var(--primary-background-color)
   ### Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/zeno-themes/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/zeno-themes/cloudy.svg")
@@ -1603,7 +1603,7 @@ Zeno Dark Orange:
   ### Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+  card-background-color: var(--ha-card-background) #var(--primary-background-color)
   ### Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/zeno-themes/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/zeno-themes/cloudy.svg")
@@ -1832,7 +1832,7 @@ Zeno Dark Coral:
   ### Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+  card-background-color: var(--ha-card-background) #var(--primary-background-color)
   ### Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/zeno-themes/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/zeno-themes/cloudy.svg")
@@ -2061,7 +2061,7 @@ Zeno Dark Pink:
   ### Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+  card-background-color: var(--ha-card-background) #var(--primary-background-color)
   ### Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/zeno-themes/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/zeno-themes/cloudy.svg")
@@ -2290,7 +2290,7 @@ Zeno Dark Gray:
   ### Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+  card-background-color: var(--ha-card-background) #var(--primary-background-color)
   ### Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/zeno-themes/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/zeno-themes/cloudy.svg")
@@ -2523,7 +2523,7 @@ Zeno Light Rose:
   ### Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+  card-background-color: var(--ha-card-background) #var(--primary-background-color)
   ### Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/zeno-themes/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/zeno-themes/cloudy.svg")
@@ -2752,7 +2752,7 @@ Zeno Light Purple:
   ### Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+  card-background-color: var(--ha-card-background) #var(--primary-background-color)
   ### Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/zeno-themes/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/zeno-themes/cloudy.svg")
@@ -2981,7 +2981,7 @@ Zeno Light Blue:
   ### Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+  card-background-color: var(--ha-card-background) #var(--primary-background-color)
   ### Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/zeno-themes/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/zeno-themes/cloudy.svg")
@@ -3210,7 +3210,7 @@ Zeno Light Aqua:
   ### Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+  card-background-color: var(--ha-card-background) #var(--primary-background-color)
   ### Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/zeno-themes/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/zeno-themes/cloudy.svg")
@@ -3439,7 +3439,7 @@ Zeno Light Green:
   ### Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+  card-background-color: var(--ha-card-background) #var(--primary-background-color)
   ### Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/zeno-themes/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/zeno-themes/cloudy.svg")
@@ -3668,7 +3668,7 @@ Zeno Light Yellow:
   ### Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+  card-background-color: var(--ha-card-background) #var(--primary-background-color)
   ### Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/zeno-themes/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/zeno-themes/cloudy.svg")
@@ -3897,7 +3897,7 @@ Zeno Light Orange:
   ### Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+  card-background-color: var(--ha-card-background) #var(--primary-background-color)
   ### Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/zeno-themes/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/zeno-themes/cloudy.svg")
@@ -4126,7 +4126,7 @@ Zeno Light Coral:
   ### Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+  card-background-color: var(--ha-card-background) #var(--primary-background-color)
   ### Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/zeno-themes/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/zeno-themes/cloudy.svg")
@@ -4355,7 +4355,7 @@ Zeno Light Pink:
   ### Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+  card-background-color: var(--ha-card-background) #var(--primary-background-color)
   ### Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/zeno-themes/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/zeno-themes/cloudy.svg")
@@ -4584,7 +4584,7 @@ Zeno Light Gray:
   ### Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+  card-background-color: var(--ha-card-background) #var(--primary-background-color)
   ### Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/zeno-themes/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/zeno-themes/cloudy.svg")
