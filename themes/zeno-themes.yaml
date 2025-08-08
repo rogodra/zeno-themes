@@ -87,7 +87,7 @@ Zeno Dark Rose:
   # ha-color-on-disabled-loud: var(--divider-color) #var(--disabled-loud)
   ha-color-fill-primary-normal-hover: var(--quiet-color)
   # wa-color-brand-fill-loud: var(--primary-color)
-  wa-color-brand-fill-normal: var(--primary-text-color)
+  wa-color-brand-fill-normal: var(--text-primary-color)
   wa-color-brand-fill-quiet: var(--quiet-color)
   wa-color-brand-on-quiet: var(--primary-color)
   ### Sidebar colors
@@ -340,7 +340,7 @@ Zeno Dark Purple:
   # ha-color-on-disabled-loud: var(--divider-color) #var(--disabled-loud)
   ha-color-fill-primary-normal-hover: var(--quiet-color)
   # wa-color-brand-fill-loud: var(--primary-color)
-  wa-color-brand-fill-normal: var(--primary-text-color)
+  wa-color-brand-fill-normal: var(--text-primary-color)
   wa-color-brand-fill-quiet: var(--quiet-color)
   wa-color-brand-on-quiet: var(--primary-color)
   ### Sidebar colors
@@ -587,7 +587,7 @@ Zeno Dark Blue:
   # ha-color-on-disabled-loud: var(--divider-color) #var(--disabled-loud)
   ha-color-fill-primary-normal-hover: var(--quiet-color)
   # wa-color-brand-fill-loud: var(--primary-color)
-  wa-color-brand-fill-normal: var(--primary-text-color)
+  wa-color-brand-fill-normal: var(--text-primary-color)
   wa-color-brand-fill-quiet: var(--quiet-color)
   wa-color-brand-on-quiet: var(--primary-color)
   ### Sidebar colors
@@ -834,7 +834,7 @@ Zeno Dark Aqua:
   # ha-color-on-disabled-loud: var(--divider-color) #var(--disabled-loud)
   ha-color-fill-primary-normal-hover: var(--quiet-color)
   # wa-color-brand-fill-loud: var(--primary-color)
-  wa-color-brand-fill-normal: var(--primary-text-color)
+  wa-color-brand-fill-normal: var(--text-primary-color)
   wa-color-brand-fill-quiet: var(--quiet-color)
   wa-color-brand-on-quiet: var(--primary-color)
   ### Sidebar colors
@@ -1081,7 +1081,7 @@ Zeno Dark Green:
   # ha-color-on-disabled-loud: var(--divider-color) #var(--disabled-loud)
   ha-color-fill-primary-normal-hover: var(--quiet-color)
   # wa-color-brand-fill-loud: var(--primary-color)
-  wa-color-brand-fill-normal: var(--primary-text-color)
+  wa-color-brand-fill-normal: var(--text-primary-color)
   wa-color-brand-fill-quiet: var(--quiet-color)
   wa-color-brand-on-quiet: var(--primary-color)
   ### Sidebar colors
@@ -1328,7 +1328,7 @@ Zeno Dark Yellow:
   # ha-color-on-disabled-loud: var(--divider-color) #var(--disabled-loud)
   ha-color-fill-primary-normal-hover: var(--quiet-color)
   # wa-color-brand-fill-loud: var(--primary-color)
-  wa-color-brand-fill-normal: var(--primary-text-color)
+  wa-color-brand-fill-normal: var(--text-primary-color)
   wa-color-brand-fill-quiet: var(--quiet-color)
   wa-color-brand-on-quiet: var(--primary-color)
   ### Sidebar colors
@@ -1576,7 +1576,7 @@ Zeno Dark Orange:
   # ha-color-on-disabled-loud: var(--divider-color) #var(--disabled-loud)
   ha-color-fill-primary-normal-hover: var(--quiet-color)
   # wa-color-brand-fill-loud: var(--primary-color)
-  wa-color-brand-fill-normal: var(--primary-text-color)
+  wa-color-brand-fill-normal: var(--text-primary-color)
   wa-color-brand-fill-quiet: var(--quiet-color)
   wa-color-brand-on-quiet: var(--primary-color)
   ### Sidebar colors
@@ -1823,7 +1823,7 @@ Zeno Dark Coral:
   # ha-color-on-disabled-loud: var(--divider-color) #var(--disabled-loud)
   ha-color-fill-primary-normal-hover: var(--quiet-color)
   # wa-color-brand-fill-loud: var(--primary-color)
-  wa-color-brand-fill-normal: var(--primary-text-color)
+  wa-color-brand-fill-normal: var(--text-primary-color)
   wa-color-brand-fill-quiet: var(--quiet-color)
   wa-color-brand-on-quiet: var(--primary-color)
   ### Sidebar colors
@@ -2070,7 +2070,7 @@ Zeno Dark Pink:
   # ha-color-on-disabled-loud: var(--divider-color) #var(--disabled-loud)
   ha-color-fill-primary-normal-hover: var(--quiet-color)
   # wa-color-brand-fill-loud: var(--primary-color)
-  wa-color-brand-fill-normal: var(--primary-text-color)
+  wa-color-brand-fill-normal: var(--text-primary-color)
   wa-color-brand-fill-quiet: var(--quiet-color)
   wa-color-brand-on-quiet: var(--primary-color)
   ### Sidebar colors
@@ -2317,7 +2317,7 @@ Zeno Dark Gray:
   # ha-color-on-disabled-loud: var(--divider-color) #var(--disabled-loud)
   ha-color-fill-primary-normal-hover: var(--quiet-color)
   # wa-color-brand-fill-loud: var(--primary-color)
-  wa-color-brand-fill-normal: var(--primary-text-color)
+  wa-color-brand-fill-normal: var(--text-primary-color)
   wa-color-brand-fill-quiet: var(--quiet-color)
   wa-color-brand-on-quiet: var(--primary-color)
   ### Sidebar colors
@@ -2568,7 +2568,7 @@ Zeno Light Rose:
   # ha-color-on-disabled-loud: var(--divider-color) #var(--disabled-loud)
   ha-color-fill-primary-normal-hover: var(--quiet-color)
   # wa-color-brand-fill-loud: var(--primary-color)
-  wa-color-brand-fill-normal: var(--primary-text-color)
+  wa-color-brand-fill-normal: var(--text-primary-color)
   wa-color-brand-fill-quiet: var(--quiet-color)
   wa-color-brand-on-quiet: var(--primary-color)
   ### Sidebar colors
@@ -2815,7 +2815,7 @@ Zeno Light Purple:
   # ha-color-on-disabled-loud: var(--divider-color) #var(--disabled-loud)
   ha-color-fill-primary-normal-hover: var(--quiet-color)
   # wa-color-brand-fill-loud: var(--primary-color)
-  wa-color-brand-fill-normal: var(--primary-text-color)
+  wa-color-brand-fill-normal: var(--text-primary-color)
   wa-color-brand-fill-quiet: var(--quiet-color)
   wa-color-brand-on-quiet: var(--primary-color)
   ### Sidebar colors
@@ -3062,7 +3062,7 @@ Zeno Light Blue:
   # ha-color-on-disabled-loud: var(--divider-color) #var(--disabled-loud)
   ha-color-fill-primary-normal-hover: var(--quiet-color)
   # wa-color-brand-fill-loud: var(--primary-color)
-  wa-color-brand-fill-normal: var(--primary-text-color)
+  wa-color-brand-fill-normal: var(--text-primary-color)
   wa-color-brand-fill-quiet: var(--quiet-color)
   wa-color-brand-on-quiet: var(--primary-color)
   ### Sidebar colors
@@ -3309,7 +3309,7 @@ Zeno Light Aqua:
   # ha-color-on-disabled-loud: var(--divider-color) #var(--disabled-loud)
   ha-color-fill-primary-normal-hover: var(--quiet-color)
   # wa-color-brand-fill-loud: var(--primary-color)
-  wa-color-brand-fill-normal: var(--primary-text-color)
+  wa-color-brand-fill-normal: var(--text-primary-color)
   wa-color-brand-fill-quiet: var(--quiet-color)
   wa-color-brand-on-quiet: var(--primary-color)
   ### Sidebar colors
@@ -3556,7 +3556,7 @@ Zeno Light Green:
   # ha-color-on-disabled-loud: var(--divider-color) #var(--disabled-loud)
   ha-color-fill-primary-normal-hover: var(--quiet-color)
   # wa-color-brand-fill-loud: var(--primary-color)
-  wa-color-brand-fill-normal: var(--primary-text-color)
+  wa-color-brand-fill-normal: var(--text-primary-color)
   wa-color-brand-fill-quiet: var(--quiet-color)
   wa-color-brand-on-quiet: var(--primary-color)
   ### Sidebar colors
@@ -3803,7 +3803,7 @@ Zeno Light Yellow:
   # ha-color-on-disabled-loud: var(--divider-color) #var(--disabled-loud)
   ha-color-fill-primary-normal-hover: var(--quiet-color)
   # wa-color-brand-fill-loud: var(--primary-color)
-  wa-color-brand-fill-normal: var(--primary-text-color)
+  wa-color-brand-fill-normal: var(--text-primary-color)
   wa-color-brand-fill-quiet: var(--quiet-color)
   wa-color-brand-on-quiet: var(--primary-color)
   ### Sidebar colors
@@ -4050,7 +4050,7 @@ Zeno Light Orange:
   # ha-color-on-disabled-loud: var(--divider-color) #var(--disabled-loud)
   ha-color-fill-primary-normal-hover: var(--quiet-color)
   # wa-color-brand-fill-loud: var(--primary-color)
-  wa-color-brand-fill-normal: var(--primary-text-color)
+  wa-color-brand-fill-normal: var(--text-primary-color)
   wa-color-brand-fill-quiet: var(--quiet-color)
   wa-color-brand-on-quiet: var(--primary-color)
   ### Sidebar colors
@@ -4297,7 +4297,7 @@ Zeno Light Coral:
   # ha-color-on-disabled-loud: var(--divider-color) #var(--disabled-loud)
   ha-color-fill-primary-normal-hover: var(--quiet-color)
   # wa-color-brand-fill-loud: var(--primary-color)
-  wa-color-brand-fill-normal: var(--primary-text-color)
+  wa-color-brand-fill-normal: var(--text-primary-color)
   wa-color-brand-fill-quiet: var(--quiet-color)
   wa-color-brand-on-quiet: var(--primary-color)
   ### Sidebar colors
@@ -4544,7 +4544,7 @@ Zeno Light Pink:
   # ha-color-on-disabled-loud: var(--divider-color) #var(--disabled-loud)
   ha-color-fill-primary-normal-hover: var(--quiet-color)
   # wa-color-brand-fill-loud: var(--primary-color)
-  wa-color-brand-fill-normal: var(--primary-text-color)
+  wa-color-brand-fill-normal: var(--text-primary-color)
   wa-color-brand-fill-quiet: var(--quiet-color)
   wa-color-brand-on-quiet: var(--primary-color)
   ### Sidebar colors
@@ -4791,7 +4791,7 @@ Zeno Light Gray:
   # ha-color-on-disabled-loud: var(--divider-color) #var(--disabled-loud)
   ha-color-fill-primary-normal-hover: var(--quiet-color)
   # wa-color-brand-fill-loud: var(--primary-color)
-  wa-color-brand-fill-normal: var(--primary-text-color)
+  wa-color-brand-fill-normal: var(--text-primary-color)
   wa-color-brand-fill-quiet: var(--quiet-color)
   wa-color-brand-on-quiet: var(--primary-color)
   ### Sidebar colors
