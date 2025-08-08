@@ -1,6 +1,5 @@
 #     Zeno Themes
-#     Release 0.1.2
-#
+#     Release 0.2.5
 #
 #     - Zeno Dark Rose
 #     - Zeno Dark Purple
@@ -23,7 +22,6 @@
 #     - Zeno Light Coral
 #     - Zeno Light Pink
 #     - Zeno Light Gray
-
 
 #   # Place the backgrounds in the folder  config/www/images/backgrounds 
 #   lovelace-background: 'center / cover no-repeat url("/hacsfiles/themes/zeno-themes/rose.jpg") fixed'
@@ -61,6 +59,7 @@ Zeno Dark Rose:
   secondary-background-color: var(--primary-background-color)
   divider-color: "#373737" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
+  quiet-color: "#313131"
   #border-color: "transparent"
   ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
   ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
@@ -74,6 +73,22 @@ Zeno Dark Rose:
   disabled-text-color: var(--disabled-color)
   text-on-state-color: var(--ha-card-background)
   text-light-primary-color: var(--primary-text-color)
+  ### Nous colors de textos HA 2025.8
+  ha-color-fill-primary-loud-resting: var(--primary-color)
+  ha-color-fill-primary-loud-active: var(--primary-color)
+  ha-color-fill-primary-loud-hover: var(--light-primary-color) #var(--primary-color-hover)
+  ha-color-on-primary-normal: var(--primary-color)
+  # ha-color-on-primary-quiet: var(--divider-color) #var(--primary-color-quiet)
+  # ha-color-fill-disabled-normal-resting: var(--divider-color) #var(--fill-disabled-normal)
+  # ha-color-fill-disabled-quiet-resting: var(--divider-color) #var(--fill-disabled-quiet)
+  # ha-color-fill-disabled-loud-resting: var(--divider-color) #var(--fill-disabled-loud)
+  ha-color-on-disabled-normal: var(--state-inactive-color)
+  # ha-color-on-disabled-quiet: var(--divider-color) #var(--disabled-quiet)
+  # ha-color-on-disabled-loud: var(--divider-color) #var(--disabled-loud)
+  # wa-color-brand-fill-loud: var(--primary-color)
+  # wa-color-brand-fill-normal: var(--primary-color)
+  wa-color-brand-fill-quiet: var(--quiet-color)
+  wa-color-brand-on-quiet: var(--primary-color)
   ### Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -83,7 +98,7 @@ Zeno Dark Rose:
   ### Icons colors (ara aquests controlen els colors)
   state-icon-color: var(--disabled-color)
   state-active-color: var(--primary-color) #var(--amber-color)
-  # state-inactive-color: var(--grey-color)
+  state-inactive-color: var(--disabled-color) #var(--grey-color)
   # state-unavailable-color: var(--disabled-color)
   state-switch-active-color: var(--primary-color) #var(--amber-color)
   state-light-active-color: var(--primary-color) #var(--amber-color)
@@ -296,6 +311,7 @@ Zeno Dark Purple:
   secondary-background-color: var(--primary-background-color)
   divider-color: "#373737" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
+  quiet-color: "#313131"
   #border-color: "transparent"
   ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
   ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
@@ -309,6 +325,22 @@ Zeno Dark Purple:
   disabled-text-color: var(--disabled-color)
   text-on-state-color: var(--ha-card-background)
   text-light-primary-color: var(--primary-text-color)
+  ### Nous colors de textos HA 2025.8
+  ha-color-fill-primary-loud-resting: var(--primary-color)
+  ha-color-fill-primary-loud-active: var(--primary-color)
+  ha-color-fill-primary-loud-hover: var(--light-primary-color) #var(--primary-color-hover)
+  ha-color-on-primary-normal: var(--primary-color)
+  # ha-color-on-primary-quiet: var(--divider-color) #var(--primary-color-quiet)
+  # ha-color-fill-disabled-normal-resting: var(--divider-color) #var(--fill-disabled-normal)
+  # ha-color-fill-disabled-quiet-resting: var(--divider-color) #var(--fill-disabled-quiet)
+  # ha-color-fill-disabled-loud-resting: var(--divider-color) #var(--fill-disabled-loud)
+  ha-color-on-disabled-normal: var(--state-inactive-color)
+  # ha-color-on-disabled-quiet: var(--divider-color) #var(--disabled-quiet)
+  # ha-color-on-disabled-loud: var(--divider-color) #var(--disabled-loud)
+  # wa-color-brand-fill-loud: var(--primary-color)
+  # wa-color-brand-fill-normal: var(--primary-color)
+  wa-color-brand-fill-quiet: var(--quiet-color)
+  wa-color-brand-on-quiet: var(--primary-color)
   ### Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -318,7 +350,7 @@ Zeno Dark Purple:
   ### Icons colors (ara aquests controlen els colors)
   state-icon-color: var(--disabled-color)
   state-active-color: var(--primary-color) #var(--amber-color)
-  # state-inactive-color: var(--grey-color)
+  state-inactive-color: var(--disabled-color) #var(--grey-color)
   # state-unavailable-color: var(--disabled-color)
   state-switch-active-color: var(--primary-color) #var(--amber-color)
   state-light-active-color: var(--primary-color) #var(--amber-color)
@@ -525,6 +557,7 @@ Zeno Dark Blue:
   secondary-background-color: var(--primary-background-color)
   divider-color: "#373737" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
+  quiet-color: "#313131"
   #border-color: "transparent"
   ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
   ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
@@ -538,6 +571,22 @@ Zeno Dark Blue:
   disabled-text-color: var(--disabled-color)
   text-on-state-color: var(--ha-card-background)
   text-light-primary-color: var(--primary-text-color)
+  ### Nous colors de textos HA 2025.8
+  ha-color-fill-primary-loud-resting: var(--primary-color)
+  ha-color-fill-primary-loud-active: var(--primary-color)
+  ha-color-fill-primary-loud-hover: var(--light-primary-color) #var(--primary-color-hover)
+  ha-color-on-primary-normal: var(--primary-color)
+  # ha-color-on-primary-quiet: var(--divider-color) #var(--primary-color-quiet)
+  # ha-color-fill-disabled-normal-resting: var(--divider-color) #var(--fill-disabled-normal)
+  # ha-color-fill-disabled-quiet-resting: var(--divider-color) #var(--fill-disabled-quiet)
+  # ha-color-fill-disabled-loud-resting: var(--divider-color) #var(--fill-disabled-loud)
+  ha-color-on-disabled-normal: var(--state-inactive-color)
+  # ha-color-on-disabled-quiet: var(--divider-color) #var(--disabled-quiet)
+  # ha-color-on-disabled-loud: var(--divider-color) #var(--disabled-loud)
+  # wa-color-brand-fill-loud: var(--primary-color)
+  # wa-color-brand-fill-normal: var(--primary-color)
+  wa-color-brand-fill-quiet: var(--quiet-color)
+  wa-color-brand-on-quiet: var(--primary-color)
   ### Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -547,7 +596,7 @@ Zeno Dark Blue:
   ### Icons colors (ara aquests controlen els colors)
   state-icon-color: var(--disabled-color)
   state-active-color: var(--primary-color) #var(--amber-color)
-  # state-inactive-color: var(--grey-color)
+  state-inactive-color: var(--disabled-color) #var(--grey-color)
   # state-unavailable-color: var(--disabled-color)
   state-switch-active-color: var(--primary-color) #var(--amber-color)
   state-light-active-color: var(--primary-color) #var(--amber-color)
@@ -754,6 +803,7 @@ Zeno Dark Aqua:
   secondary-background-color: var(--primary-background-color)
   divider-color: "#373737" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
+  quiet-color: "#313131"
   #border-color: "transparent"
   ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
   ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
@@ -767,6 +817,22 @@ Zeno Dark Aqua:
   disabled-text-color: var(--disabled-color)
   text-on-state-color: var(--ha-card-background)
   text-light-primary-color: var(--primary-text-color)
+  ### Nous colors de textos HA 2025.8
+  ha-color-fill-primary-loud-resting: var(--primary-color)
+  ha-color-fill-primary-loud-active: var(--primary-color)
+  ha-color-fill-primary-loud-hover: var(--light-primary-color) #var(--primary-color-hover)
+  ha-color-on-primary-normal: var(--primary-color)
+  # ha-color-on-primary-quiet: var(--divider-color) #var(--primary-color-quiet)
+  # ha-color-fill-disabled-normal-resting: var(--divider-color) #var(--fill-disabled-normal)
+  # ha-color-fill-disabled-quiet-resting: var(--divider-color) #var(--fill-disabled-quiet)
+  # ha-color-fill-disabled-loud-resting: var(--divider-color) #var(--fill-disabled-loud)
+  ha-color-on-disabled-normal: var(--state-inactive-color)
+  # ha-color-on-disabled-quiet: var(--divider-color) #var(--disabled-quiet)
+  # ha-color-on-disabled-loud: var(--divider-color) #var(--disabled-loud)
+  # wa-color-brand-fill-loud: var(--primary-color)
+  # wa-color-brand-fill-normal: var(--primary-color)
+  wa-color-brand-fill-quiet: var(--quiet-color)
+  wa-color-brand-on-quiet: var(--primary-color)
   ### Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -776,7 +842,7 @@ Zeno Dark Aqua:
   ### Icons colors (ara aquests controlen els colors)
   state-icon-color: var(--disabled-color)
   state-active-color: var(--primary-color) #var(--amber-color)
-  # state-inactive-color: var(--grey-color)
+  state-inactive-color: var(--disabled-color) #var(--grey-color)
   # state-unavailable-color: var(--disabled-color)
   state-switch-active-color: var(--primary-color) #var(--amber-color)
   state-light-active-color: var(--primary-color) #var(--amber-color)
@@ -983,6 +1049,7 @@ Zeno Dark Green:
   secondary-background-color: var(--primary-background-color)
   divider-color: "#373737" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
+  quiet-color: "#313131"
   #border-color: "transparent"
   ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
   ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
@@ -996,6 +1063,22 @@ Zeno Dark Green:
   disabled-text-color: var(--disabled-color)
   text-on-state-color: var(--ha-card-background)
   text-light-primary-color: var(--primary-text-color)
+  ### Nous colors de textos HA 2025.8
+  ha-color-fill-primary-loud-resting: var(--primary-color)
+  ha-color-fill-primary-loud-active: var(--primary-color)
+  ha-color-fill-primary-loud-hover: var(--light-primary-color) #var(--primary-color-hover)
+  ha-color-on-primary-normal: var(--primary-color)
+  # ha-color-on-primary-quiet: var(--divider-color) #var(--primary-color-quiet)
+  # ha-color-fill-disabled-normal-resting: var(--divider-color) #var(--fill-disabled-normal)
+  # ha-color-fill-disabled-quiet-resting: var(--divider-color) #var(--fill-disabled-quiet)
+  # ha-color-fill-disabled-loud-resting: var(--divider-color) #var(--fill-disabled-loud)
+  ha-color-on-disabled-normal: var(--state-inactive-color)
+  # ha-color-on-disabled-quiet: var(--divider-color) #var(--disabled-quiet)
+  # ha-color-on-disabled-loud: var(--divider-color) #var(--disabled-loud)
+  # wa-color-brand-fill-loud: var(--primary-color)
+  # wa-color-brand-fill-normal: var(--primary-color)
+  wa-color-brand-fill-quiet: var(--quiet-color)
+  wa-color-brand-on-quiet: var(--primary-color)
   ### Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -1005,7 +1088,7 @@ Zeno Dark Green:
   ### Icons colors (ara aquests controlen els colors)
   state-icon-color: var(--disabled-color)
   state-active-color: var(--primary-color) #var(--amber-color)
-  # state-inactive-color: var(--grey-color)
+  state-inactive-color: var(--disabled-color) #var(--grey-color)
   # state-unavailable-color: var(--disabled-color)
   state-switch-active-color: var(--primary-color) #var(--amber-color)
   state-light-active-color: var(--primary-color) #var(--amber-color)
@@ -1212,6 +1295,7 @@ Zeno Dark Yellow:
   secondary-background-color: var(--primary-background-color)
   divider-color: "#373737" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
+  quiet-color: "#313131"
   #border-color: "transparent"
   ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
   ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
@@ -1225,6 +1309,22 @@ Zeno Dark Yellow:
   disabled-text-color: var(--disabled-color)
   text-on-state-color: var(--ha-card-background)
   text-light-primary-color: var(--primary-text-color)
+  ### Nous colors de textos HA 2025.8
+  ha-color-fill-primary-loud-resting: var(--primary-color)
+  ha-color-fill-primary-loud-active: var(--primary-color)
+  ha-color-fill-primary-loud-hover: var(--light-primary-color) #var(--primary-color-hover)
+  ha-color-on-primary-normal: var(--primary-color)
+  # ha-color-on-primary-quiet: var(--divider-color) #var(--primary-color-quiet)
+  # ha-color-fill-disabled-normal-resting: var(--divider-color) #var(--fill-disabled-normal)
+  # ha-color-fill-disabled-quiet-resting: var(--divider-color) #var(--fill-disabled-quiet)
+  # ha-color-fill-disabled-loud-resting: var(--divider-color) #var(--fill-disabled-loud)
+  ha-color-on-disabled-normal: var(--state-inactive-color)
+  # ha-color-on-disabled-quiet: var(--divider-color) #var(--disabled-quiet)
+  # ha-color-on-disabled-loud: var(--divider-color) #var(--disabled-loud)
+  # wa-color-brand-fill-loud: var(--primary-color)
+  # wa-color-brand-fill-normal: var(--primary-color)
+  wa-color-brand-fill-quiet: var(--quiet-color)
+  wa-color-brand-on-quiet: var(--primary-color)
   ### Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -1234,7 +1334,7 @@ Zeno Dark Yellow:
   ### Icons colors (ara aquests controlen els colors)
   state-icon-color: var(--disabled-color)
   state-active-color: var(--primary-color) #var(--amber-color)
-  # state-inactive-color: var(--grey-color)
+  state-inactive-color: var(--disabled-color) #var(--grey-color)
   # state-unavailable-color: var(--disabled-color)
   state-switch-active-color: var(--primary-color) #var(--amber-color)
   state-light-active-color: var(--primary-color) #var(--amber-color)
@@ -1442,6 +1542,7 @@ Zeno Dark Orange:
   secondary-background-color: var(--primary-background-color)
   divider-color: "#373737" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
+  quiet-color: "#313131"
   #border-color: "transparent"
   ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
   ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
@@ -1455,6 +1556,22 @@ Zeno Dark Orange:
   disabled-text-color: var(--disabled-color)
   text-on-state-color: var(--ha-card-background)
   text-light-primary-color: var(--primary-text-color)
+  ### Nous colors de textos HA 2025.8
+  ha-color-fill-primary-loud-resting: var(--primary-color)
+  ha-color-fill-primary-loud-active: var(--primary-color)
+  ha-color-fill-primary-loud-hover: var(--light-primary-color) #var(--primary-color-hover)
+  ha-color-on-primary-normal: var(--primary-color)
+  # ha-color-on-primary-quiet: var(--divider-color) #var(--primary-color-quiet)
+  # ha-color-fill-disabled-normal-resting: var(--divider-color) #var(--fill-disabled-normal)
+  # ha-color-fill-disabled-quiet-resting: var(--divider-color) #var(--fill-disabled-quiet)
+  # ha-color-fill-disabled-loud-resting: var(--divider-color) #var(--fill-disabled-loud)
+  ha-color-on-disabled-normal: var(--state-inactive-color)
+  # ha-color-on-disabled-quiet: var(--divider-color) #var(--disabled-quiet)
+  # ha-color-on-disabled-loud: var(--divider-color) #var(--disabled-loud)
+  # wa-color-brand-fill-loud: var(--primary-color)
+  # wa-color-brand-fill-normal: var(--primary-color)
+  wa-color-brand-fill-quiet: var(--quiet-color)
+  wa-color-brand-on-quiet: var(--primary-color)
   ### Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -1464,7 +1581,7 @@ Zeno Dark Orange:
   ### Icons colors (ara aquests controlen els colors)
   state-icon-color: var(--disabled-color)
   state-active-color: var(--primary-color) #var(--amber-color)
-  # state-inactive-color: var(--grey-color)
+  state-inactive-color: var(--disabled-color) #var(--grey-color)
   # state-unavailable-color: var(--disabled-color)
   state-switch-active-color: var(--primary-color) #var(--amber-color)
   state-light-active-color: var(--primary-color) #var(--amber-color)
@@ -1671,6 +1788,7 @@ Zeno Dark Coral:
   secondary-background-color: var(--primary-background-color)
   divider-color: "#373737" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
+  quiet-color: "#313131"
   #border-color: "transparent"
   ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
   ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
@@ -1684,6 +1802,22 @@ Zeno Dark Coral:
   disabled-text-color: var(--disabled-color)
   text-on-state-color: var(--ha-card-background)
   text-light-primary-color: var(--primary-text-color)
+  ### Nous colors de textos HA 2025.8
+  ha-color-fill-primary-loud-resting: var(--primary-color)
+  ha-color-fill-primary-loud-active: var(--primary-color)
+  ha-color-fill-primary-loud-hover: var(--light-primary-color) #var(--primary-color-hover)
+  ha-color-on-primary-normal: var(--primary-color)
+  # ha-color-on-primary-quiet: var(--divider-color) #var(--primary-color-quiet)
+  # ha-color-fill-disabled-normal-resting: var(--divider-color) #var(--fill-disabled-normal)
+  # ha-color-fill-disabled-quiet-resting: var(--divider-color) #var(--fill-disabled-quiet)
+  # ha-color-fill-disabled-loud-resting: var(--divider-color) #var(--fill-disabled-loud)
+  ha-color-on-disabled-normal: var(--state-inactive-color)
+  # ha-color-on-disabled-quiet: var(--divider-color) #var(--disabled-quiet)
+  # ha-color-on-disabled-loud: var(--divider-color) #var(--disabled-loud)
+  # wa-color-brand-fill-loud: var(--primary-color)
+  # wa-color-brand-fill-normal: var(--primary-color)
+  wa-color-brand-fill-quiet: var(--quiet-color)
+  wa-color-brand-on-quiet: var(--primary-color)
   ### Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -1693,7 +1827,7 @@ Zeno Dark Coral:
   ### Icons colors (ara aquests controlen els colors)
   state-icon-color: var(--disabled-color)
   state-active-color: var(--primary-color) #var(--amber-color)
-  # state-inactive-color: var(--grey-color)
+  state-inactive-color: var(--disabled-color) #var(--grey-color)
   # state-unavailable-color: var(--disabled-color)
   state-switch-active-color: var(--primary-color) #var(--amber-color)
   state-light-active-color: var(--primary-color) #var(--amber-color)
@@ -1900,6 +2034,7 @@ Zeno Dark Pink:
   secondary-background-color: var(--primary-background-color)
   divider-color: "#373737" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
+  quiet-color: "#313131"
   #border-color: "transparent"
   ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
   ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
@@ -1913,6 +2048,22 @@ Zeno Dark Pink:
   disabled-text-color: var(--disabled-color)
   text-on-state-color: var(--ha-card-background)
   text-light-primary-color: var(--primary-text-color)
+  ### Nous colors de textos HA 2025.8
+  ha-color-fill-primary-loud-resting: var(--primary-color)
+  ha-color-fill-primary-loud-active: var(--primary-color)
+  ha-color-fill-primary-loud-hover: var(--light-primary-color) #var(--primary-color-hover)
+  ha-color-on-primary-normal: var(--primary-color)
+  # ha-color-on-primary-quiet: var(--divider-color) #var(--primary-color-quiet)
+  # ha-color-fill-disabled-normal-resting: var(--divider-color) #var(--fill-disabled-normal)
+  # ha-color-fill-disabled-quiet-resting: var(--divider-color) #var(--fill-disabled-quiet)
+  # ha-color-fill-disabled-loud-resting: var(--divider-color) #var(--fill-disabled-loud)
+  ha-color-on-disabled-normal: var(--state-inactive-color)
+  # ha-color-on-disabled-quiet: var(--divider-color) #var(--disabled-quiet)
+  # ha-color-on-disabled-loud: var(--divider-color) #var(--disabled-loud)
+  # wa-color-brand-fill-loud: var(--primary-color)
+  # wa-color-brand-fill-normal: var(--primary-color)
+  wa-color-brand-fill-quiet: var(--quiet-color)
+  wa-color-brand-on-quiet: var(--primary-color)
   ### Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -1922,7 +2073,7 @@ Zeno Dark Pink:
   ### Icons colors (ara aquests controlen els colors)
   state-icon-color: var(--disabled-color)
   state-active-color: var(--primary-color) #var(--amber-color)
-  # state-inactive-color: var(--grey-color)
+  state-inactive-color: var(--disabled-color) #var(--grey-color)
   # state-unavailable-color: var(--disabled-color)
   state-switch-active-color: var(--primary-color) #var(--amber-color)
   state-light-active-color: var(--primary-color) #var(--amber-color)
@@ -2129,6 +2280,7 @@ Zeno Dark Gray:
   secondary-background-color: var(--primary-background-color)
   divider-color: "#373737" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#37373D"
   disabled-color: "#666666"
+  quiet-color: "#313131"
   #border-color: "transparent"
   ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
   ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
@@ -2142,6 +2294,22 @@ Zeno Dark Gray:
   disabled-text-color: var(--disabled-color)
   text-on-state-color: var(--ha-card-background)
   text-light-primary-color: var(--primary-text-color)
+  ### Nous colors de textos HA 2025.8
+  ha-color-fill-primary-loud-resting: var(--primary-color)
+  ha-color-fill-primary-loud-active: var(--primary-color)
+  ha-color-fill-primary-loud-hover: var(--light-primary-color) #var(--primary-color-hover)
+  ha-color-on-primary-normal: var(--primary-color)
+  # ha-color-on-primary-quiet: var(--divider-color) #var(--primary-color-quiet)
+  # ha-color-fill-disabled-normal-resting: var(--divider-color) #var(--fill-disabled-normal)
+  # ha-color-fill-disabled-quiet-resting: var(--divider-color) #var(--fill-disabled-quiet)
+  # ha-color-fill-disabled-loud-resting: var(--divider-color) #var(--fill-disabled-loud)
+  ha-color-on-disabled-normal: var(--state-inactive-color)
+  # ha-color-on-disabled-quiet: var(--divider-color) #var(--disabled-quiet)
+  # ha-color-on-disabled-loud: var(--divider-color) #var(--disabled-loud)
+  # wa-color-brand-fill-loud: var(--primary-color)
+  # wa-color-brand-fill-normal: var(--primary-color)
+  wa-color-brand-fill-quiet: var(--quiet-color)
+  wa-color-brand-on-quiet: var(--primary-color)
   ### Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -2151,7 +2319,7 @@ Zeno Dark Gray:
   ### Icons colors (ara aquests controlen els colors)
   state-icon-color: var(--disabled-color)
   state-active-color: var(--primary-color) #var(--amber-color)
-  # state-inactive-color: var(--grey-color)
+  state-inactive-color: var(--disabled-color) #var(--grey-color)
   # state-unavailable-color: var(--disabled-color)
   state-switch-active-color: var(--primary-color) #var(--amber-color)
   state-light-active-color: var(--primary-color) #var(--amber-color)
@@ -2362,6 +2530,7 @@ Zeno Light Rose:
   secondary-background-color: var(--primary-background-color)
   divider-color: "#dddddd" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
+  quiet-color: "#EEEEEE"
   #border-color: "transparent"
   ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
   ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
@@ -2375,6 +2544,22 @@ Zeno Light Rose:
   disabled-text-color: var(--disabled-color)
   text-on-state-color: var(--ha-card-background)
   text-light-primary-color: var(--primary-text-color)
+  ### Nous colors de textos HA 2025.8
+  ha-color-fill-primary-loud-resting: var(--primary-color)
+  ha-color-fill-primary-loud-active: var(--primary-color)
+  ha-color-fill-primary-loud-hover: var(--light-primary-color) #var(--primary-color-hover)
+  ha-color-on-primary-normal: var(--primary-color)
+  # ha-color-on-primary-quiet: var(--divider-color) #var(--primary-color-quiet)
+  # ha-color-fill-disabled-normal-resting: var(--divider-color) #var(--fill-disabled-normal)
+  # ha-color-fill-disabled-quiet-resting: var(--divider-color) #var(--fill-disabled-quiet)
+  # ha-color-fill-disabled-loud-resting: var(--divider-color) #var(--fill-disabled-loud)
+  ha-color-on-disabled-normal: var(--state-inactive-color)
+  # ha-color-on-disabled-quiet: var(--divider-color) #var(--disabled-quiet)
+  # ha-color-on-disabled-loud: var(--divider-color) #var(--disabled-loud)
+  # wa-color-brand-fill-loud: var(--primary-color)
+  # wa-color-brand-fill-normal: var(--primary-color)
+  wa-color-brand-fill-quiet: var(--quiet-color)
+  wa-color-brand-on-quiet: var(--primary-color)
   ### Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -2384,7 +2569,7 @@ Zeno Light Rose:
   ### Icons colors (ara aquests controlen els colors)
   state-icon-color: var(--disabled-color)
   state-active-color: var(--primary-color) #var(--amber-color)
-  # state-inactive-color: var(--grey-color)
+  state-inactive-color: var(--disabled-color) #var(--grey-color)
   # state-unavailable-color: var(--disabled-color)
   state-switch-active-color: var(--primary-color) #var(--amber-color)
   state-light-active-color: var(--primary-color) #var(--amber-color)
@@ -2591,6 +2776,7 @@ Zeno Light Purple:
   secondary-background-color: var(--primary-background-color)
   divider-color: "#dddddd" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
+  quiet-color: "#EEEEEE"
   #border-color: "transparent"
   ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
   ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
@@ -2604,6 +2790,22 @@ Zeno Light Purple:
   disabled-text-color: var(--disabled-color)
   text-on-state-color: var(--ha-card-background)
   text-light-primary-color: var(--primary-text-color)
+  ### Nous colors de textos HA 2025.8
+  ha-color-fill-primary-loud-resting: var(--primary-color)
+  ha-color-fill-primary-loud-active: var(--primary-color)
+  ha-color-fill-primary-loud-hover: var(--light-primary-color) #var(--primary-color-hover)
+  ha-color-on-primary-normal: var(--primary-color)
+  # ha-color-on-primary-quiet: var(--divider-color) #var(--primary-color-quiet)
+  # ha-color-fill-disabled-normal-resting: var(--divider-color) #var(--fill-disabled-normal)
+  # ha-color-fill-disabled-quiet-resting: var(--divider-color) #var(--fill-disabled-quiet)
+  # ha-color-fill-disabled-loud-resting: var(--divider-color) #var(--fill-disabled-loud)
+  ha-color-on-disabled-normal: var(--state-inactive-color)
+  # ha-color-on-disabled-quiet: var(--divider-color) #var(--disabled-quiet)
+  # ha-color-on-disabled-loud: var(--divider-color) #var(--disabled-loud)
+  # wa-color-brand-fill-loud: var(--primary-color)
+  # wa-color-brand-fill-normal: var(--primary-color)
+  wa-color-brand-fill-quiet: var(--quiet-color)
+  wa-color-brand-on-quiet: var(--primary-color)
   ### Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -2613,7 +2815,7 @@ Zeno Light Purple:
   ### Icons colors (ara aquests controlen els colors)
   state-icon-color: var(--disabled-color)
   state-active-color: var(--primary-color) #var(--amber-color)
-  # state-inactive-color: var(--grey-color)
+  state-inactive-color: var(--disabled-color) #var(--grey-color)
   # state-unavailable-color: var(--disabled-color)
   state-switch-active-color: var(--primary-color) #var(--amber-color)
   state-light-active-color: var(--primary-color) #var(--amber-color)
@@ -2820,6 +3022,7 @@ Zeno Light Blue:
   secondary-background-color: var(--primary-background-color)
   divider-color: "#dddddd" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
+  quiet-color: "#EEEEEE"
   #border-color: "transparent"
   ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
   ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
@@ -2833,6 +3036,22 @@ Zeno Light Blue:
   disabled-text-color: var(--disabled-color)
   text-on-state-color: var(--ha-card-background)
   text-light-primary-color: var(--primary-text-color)
+  ### Nous colors de textos HA 2025.8
+  ha-color-fill-primary-loud-resting: var(--primary-color)
+  ha-color-fill-primary-loud-active: var(--primary-color)
+  ha-color-fill-primary-loud-hover: var(--light-primary-color) #var(--primary-color-hover)
+  ha-color-on-primary-normal: var(--primary-color)
+  # ha-color-on-primary-quiet: var(--divider-color) #var(--primary-color-quiet)
+  # ha-color-fill-disabled-normal-resting: var(--divider-color) #var(--fill-disabled-normal)
+  # ha-color-fill-disabled-quiet-resting: var(--divider-color) #var(--fill-disabled-quiet)
+  # ha-color-fill-disabled-loud-resting: var(--divider-color) #var(--fill-disabled-loud)
+  ha-color-on-disabled-normal: var(--state-inactive-color)
+  # ha-color-on-disabled-quiet: var(--divider-color) #var(--disabled-quiet)
+  # ha-color-on-disabled-loud: var(--divider-color) #var(--disabled-loud)
+  # wa-color-brand-fill-loud: var(--primary-color)
+  # wa-color-brand-fill-normal: var(--primary-color)
+  wa-color-brand-fill-quiet: var(--quiet-color)
+  wa-color-brand-on-quiet: var(--primary-color)
   ### Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -2842,7 +3061,7 @@ Zeno Light Blue:
   ### Icons colors (ara aquests controlen els colors)
   state-icon-color: var(--disabled-color)
   state-active-color: var(--primary-color) #var(--amber-color)
-  # state-inactive-color: var(--grey-color)
+  state-inactive-color: var(--disabled-color) #var(--grey-color)
   # state-unavailable-color: var(--disabled-color)
   state-switch-active-color: var(--primary-color) #var(--amber-color)
   state-light-active-color: var(--primary-color) #var(--amber-color)
@@ -3049,6 +3268,7 @@ Zeno Light Aqua:
   secondary-background-color: var(--primary-background-color)
   divider-color: "#dddddd" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
+  quiet-color: "#EEEEEE"
   #border-color: "transparent"
   ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
   ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
@@ -3062,6 +3282,22 @@ Zeno Light Aqua:
   disabled-text-color: var(--disabled-color)
   text-on-state-color: var(--ha-card-background)
   text-light-primary-color: var(--primary-text-color)
+  ### Nous colors de textos HA 2025.8
+  ha-color-fill-primary-loud-resting: var(--primary-color)
+  ha-color-fill-primary-loud-active: var(--primary-color)
+  ha-color-fill-primary-loud-hover: var(--light-primary-color) #var(--primary-color-hover)
+  ha-color-on-primary-normal: var(--primary-color)
+  # ha-color-on-primary-quiet: var(--divider-color) #var(--primary-color-quiet)
+  # ha-color-fill-disabled-normal-resting: var(--divider-color) #var(--fill-disabled-normal)
+  # ha-color-fill-disabled-quiet-resting: var(--divider-color) #var(--fill-disabled-quiet)
+  # ha-color-fill-disabled-loud-resting: var(--divider-color) #var(--fill-disabled-loud)
+  ha-color-on-disabled-normal: var(--state-inactive-color)
+  # ha-color-on-disabled-quiet: var(--divider-color) #var(--disabled-quiet)
+  # ha-color-on-disabled-loud: var(--divider-color) #var(--disabled-loud)
+  # wa-color-brand-fill-loud: var(--primary-color)
+  # wa-color-brand-fill-normal: var(--primary-color)
+  wa-color-brand-fill-quiet: var(--quiet-color)
+  wa-color-brand-on-quiet: var(--primary-color)
   ### Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -3071,7 +3307,7 @@ Zeno Light Aqua:
   ### Icons colors (ara aquests controlen els colors)
   state-icon-color: var(--disabled-color)
   state-active-color: var(--primary-color) #var(--amber-color)
-  # state-inactive-color: var(--grey-color)
+  state-inactive-color: var(--disabled-color) #var(--grey-color)
   # state-unavailable-color: var(--disabled-color)
   state-switch-active-color: var(--primary-color) #var(--amber-color)
   state-light-active-color: var(--primary-color) #var(--amber-color)
@@ -3278,6 +3514,7 @@ Zeno Light Green:
   secondary-background-color: var(--primary-background-color)
   divider-color: "#dddddd" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
+  quiet-color: "#EEEEEE"
   #border-color: "transparent"
   ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
   ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
@@ -3291,6 +3528,22 @@ Zeno Light Green:
   disabled-text-color: var(--disabled-color)
   text-on-state-color: var(--ha-card-background)
   text-light-primary-color: var(--primary-text-color)
+  ### Nous colors de textos HA 2025.8
+  ha-color-fill-primary-loud-resting: var(--primary-color)
+  ha-color-fill-primary-loud-active: var(--primary-color)
+  ha-color-fill-primary-loud-hover: var(--light-primary-color) #var(--primary-color-hover)
+  ha-color-on-primary-normal: var(--primary-color)
+  # ha-color-on-primary-quiet: var(--divider-color) #var(--primary-color-quiet)
+  # ha-color-fill-disabled-normal-resting: var(--divider-color) #var(--fill-disabled-normal)
+  # ha-color-fill-disabled-quiet-resting: var(--divider-color) #var(--fill-disabled-quiet)
+  # ha-color-fill-disabled-loud-resting: var(--divider-color) #var(--fill-disabled-loud)
+  ha-color-on-disabled-normal: var(--state-inactive-color)
+  # ha-color-on-disabled-quiet: var(--divider-color) #var(--disabled-quiet)
+  # ha-color-on-disabled-loud: var(--divider-color) #var(--disabled-loud)
+  # wa-color-brand-fill-loud: var(--primary-color)
+  # wa-color-brand-fill-normal: var(--primary-color)
+  wa-color-brand-fill-quiet: var(--quiet-color)
+  wa-color-brand-on-quiet: var(--primary-color)
   ### Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -3300,7 +3553,7 @@ Zeno Light Green:
   ### Icons colors (ara aquests controlen els colors)
   state-icon-color: var(--disabled-color)
   state-active-color: var(--primary-color) #var(--amber-color)
-  # state-inactive-color: var(--grey-color)
+  state-inactive-color: var(--disabled-color) #var(--grey-color)
   # state-unavailable-color: var(--disabled-color)
   state-switch-active-color: var(--primary-color) #var(--amber-color)
   state-light-active-color: var(--primary-color) #var(--amber-color)
@@ -3507,6 +3760,7 @@ Zeno Light Yellow:
   secondary-background-color: var(--primary-background-color)
   divider-color: "#dddddd" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
+  quiet-color: "#EEEEEE"
   #border-color: "transparent"
   ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
   ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
@@ -3520,6 +3774,22 @@ Zeno Light Yellow:
   disabled-text-color: var(--disabled-color)
   text-on-state-color: var(--ha-card-background)
   text-light-primary-color: var(--primary-text-color)
+  ### Nous colors de textos HA 2025.8
+  ha-color-fill-primary-loud-resting: var(--primary-color)
+  ha-color-fill-primary-loud-active: var(--primary-color)
+  ha-color-fill-primary-loud-hover: var(--light-primary-color) #var(--primary-color-hover)
+  ha-color-on-primary-normal: var(--primary-color)
+  # ha-color-on-primary-quiet: var(--divider-color) #var(--primary-color-quiet)
+  # ha-color-fill-disabled-normal-resting: var(--divider-color) #var(--fill-disabled-normal)
+  # ha-color-fill-disabled-quiet-resting: var(--divider-color) #var(--fill-disabled-quiet)
+  # ha-color-fill-disabled-loud-resting: var(--divider-color) #var(--fill-disabled-loud)
+  ha-color-on-disabled-normal: var(--state-inactive-color)
+  # ha-color-on-disabled-quiet: var(--divider-color) #var(--disabled-quiet)
+  # ha-color-on-disabled-loud: var(--divider-color) #var(--disabled-loud)
+  # wa-color-brand-fill-loud: var(--primary-color)
+  # wa-color-brand-fill-normal: var(--primary-color)
+  wa-color-brand-fill-quiet: var(--quiet-color)
+  wa-color-brand-on-quiet: var(--primary-color)
   ### Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -3529,7 +3799,7 @@ Zeno Light Yellow:
   ### Icons colors (ara aquests controlen els colors)
   state-icon-color: var(--disabled-color)
   state-active-color: var(--primary-color) #var(--amber-color)
-  # state-inactive-color: var(--grey-color)
+  state-inactive-color: var(--disabled-color) #var(--grey-color)
   # state-unavailable-color: var(--disabled-color)
   state-switch-active-color: var(--primary-color) #var(--amber-color)
   state-light-active-color: var(--primary-color) #var(--amber-color)
@@ -3736,6 +4006,7 @@ Zeno Light Orange:
   secondary-background-color: var(--primary-background-color)
   divider-color: "#dddddd" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
+  quiet-color: "#EEEEEE"
   #border-color: "transparent"
   ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
   ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
@@ -3749,6 +4020,22 @@ Zeno Light Orange:
   disabled-text-color: var(--disabled-color)
   text-on-state-color: var(--ha-card-background)
   text-light-primary-color: var(--primary-text-color)
+  ### Nous colors de textos HA 2025.8
+  ha-color-fill-primary-loud-resting: var(--primary-color)
+  ha-color-fill-primary-loud-active: var(--primary-color)
+  ha-color-fill-primary-loud-hover: var(--light-primary-color) #var(--primary-color-hover)
+  ha-color-on-primary-normal: var(--primary-color)
+  # ha-color-on-primary-quiet: var(--divider-color) #var(--primary-color-quiet)
+  # ha-color-fill-disabled-normal-resting: var(--divider-color) #var(--fill-disabled-normal)
+  # ha-color-fill-disabled-quiet-resting: var(--divider-color) #var(--fill-disabled-quiet)
+  # ha-color-fill-disabled-loud-resting: var(--divider-color) #var(--fill-disabled-loud)
+  ha-color-on-disabled-normal: var(--state-inactive-color)
+  # ha-color-on-disabled-quiet: var(--divider-color) #var(--disabled-quiet)
+  # ha-color-on-disabled-loud: var(--divider-color) #var(--disabled-loud)
+  # wa-color-brand-fill-loud: var(--primary-color)
+  # wa-color-brand-fill-normal: var(--primary-color)
+  wa-color-brand-fill-quiet: var(--quiet-color)
+  wa-color-brand-on-quiet: var(--primary-color)
   ### Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -3758,7 +4045,7 @@ Zeno Light Orange:
   ### Icons colors (ara aquests controlen els colors)
   state-icon-color: var(--disabled-color)
   state-active-color: var(--primary-color) #var(--amber-color)
-  # state-inactive-color: var(--grey-color)
+  state-inactive-color: var(--disabled-color) #var(--grey-color)
   # state-unavailable-color: var(--disabled-color)
   state-switch-active-color: var(--primary-color) #var(--amber-color)
   state-light-active-color: var(--primary-color) #var(--amber-color)
@@ -3965,6 +4252,7 @@ Zeno Light Coral:
   secondary-background-color: var(--primary-background-color)
   divider-color: "#dddddd" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
+  quiet-color: "#EEEEEE"
   #border-color: "transparent"
   ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
   ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
@@ -3978,6 +4266,22 @@ Zeno Light Coral:
   disabled-text-color: var(--disabled-color)
   text-on-state-color: var(--ha-card-background)
   text-light-primary-color: var(--primary-text-color)
+  ### Nous colors de textos HA 2025.8
+  ha-color-fill-primary-loud-resting: var(--primary-color)
+  ha-color-fill-primary-loud-active: var(--primary-color)
+  ha-color-fill-primary-loud-hover: var(--light-primary-color) #var(--primary-color-hover)
+  ha-color-on-primary-normal: var(--primary-color)
+  # ha-color-on-primary-quiet: var(--divider-color) #var(--primary-color-quiet)
+  # ha-color-fill-disabled-normal-resting: var(--divider-color) #var(--fill-disabled-normal)
+  # ha-color-fill-disabled-quiet-resting: var(--divider-color) #var(--fill-disabled-quiet)
+  # ha-color-fill-disabled-loud-resting: var(--divider-color) #var(--fill-disabled-loud)
+  ha-color-on-disabled-normal: var(--state-inactive-color)
+  # ha-color-on-disabled-quiet: var(--divider-color) #var(--disabled-quiet)
+  # ha-color-on-disabled-loud: var(--divider-color) #var(--disabled-loud)
+  # wa-color-brand-fill-loud: var(--primary-color)
+  # wa-color-brand-fill-normal: var(--primary-color)
+  wa-color-brand-fill-quiet: var(--quiet-color)
+  wa-color-brand-on-quiet: var(--primary-color)
   ### Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -3987,7 +4291,7 @@ Zeno Light Coral:
   ### Icons colors (ara aquests controlen els colors)
   state-icon-color: var(--disabled-color)
   state-active-color: var(--primary-color) #var(--amber-color)
-  # state-inactive-color: var(--grey-color)
+  state-inactive-color: var(--disabled-color) #var(--grey-color)
   # state-unavailable-color: var(--disabled-color)
   state-switch-active-color: var(--primary-color) #var(--amber-color)
   state-light-active-color: var(--primary-color) #var(--amber-color)
@@ -4194,6 +4498,7 @@ Zeno Light Pink:
   secondary-background-color: var(--primary-background-color)
   divider-color: "#dddddd" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
+  quiet-color: "#EEEEEE"
   #border-color: "transparent"
   ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
   ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
@@ -4207,6 +4512,22 @@ Zeno Light Pink:
   disabled-text-color: var(--disabled-color)
   text-on-state-color: var(--ha-card-background)
   text-light-primary-color: var(--primary-text-color)
+  ### Nous colors de textos HA 2025.8
+  ha-color-fill-primary-loud-resting: var(--primary-color)
+  ha-color-fill-primary-loud-active: var(--primary-color)
+  ha-color-fill-primary-loud-hover: var(--light-primary-color) #var(--primary-color-hover)
+  ha-color-on-primary-normal: var(--primary-color)
+  # ha-color-on-primary-quiet: var(--divider-color) #var(--primary-color-quiet)
+  # ha-color-fill-disabled-normal-resting: var(--divider-color) #var(--fill-disabled-normal)
+  # ha-color-fill-disabled-quiet-resting: var(--divider-color) #var(--fill-disabled-quiet)
+  # ha-color-fill-disabled-loud-resting: var(--divider-color) #var(--fill-disabled-loud)
+  ha-color-on-disabled-normal: var(--state-inactive-color)
+  # ha-color-on-disabled-quiet: var(--divider-color) #var(--disabled-quiet)
+  # ha-color-on-disabled-loud: var(--divider-color) #var(--disabled-loud)
+  # wa-color-brand-fill-loud: var(--primary-color)
+  # wa-color-brand-fill-normal: var(--primary-color)
+  wa-color-brand-fill-quiet: var(--quiet-color)
+  wa-color-brand-on-quiet: var(--primary-color)
   ### Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -4216,7 +4537,7 @@ Zeno Light Pink:
   ### Icons colors (ara aquests controlen els colors)
   state-icon-color: var(--disabled-color)
   state-active-color: var(--primary-color) #var(--amber-color)
-  # state-inactive-color: var(--grey-color)
+  state-inactive-color: var(--disabled-color) #var(--grey-color)
   # state-unavailable-color: var(--disabled-color)
   state-switch-active-color: var(--primary-color) #var(--amber-color)
   state-light-active-color: var(--primary-color) #var(--amber-color)
@@ -4423,6 +4744,7 @@ Zeno Light Gray:
   secondary-background-color: var(--primary-background-color)
   divider-color: "#dddddd" #divider-color: "rgba(55, 55, 61, 0)" #divider-color: "#ababab"
   disabled-color: "#888888" #disabled-color: "#ababab"
+  quiet-color: "#EEEEEE"
   #border-color: "transparent"
   ha-card-border-color: var(--divider-color) #none # nescessari perque suetin el borde de configuració avançada en la info de una entitat
   ha-card-border-width: 0px # per tenir el borde o no a les targetes, 0px elimina el borde
@@ -4436,6 +4758,22 @@ Zeno Light Gray:
   disabled-text-color: var(--disabled-color)
   text-on-state-color: var(--ha-card-background)
   text-light-primary-color: var(--primary-text-color)
+  ### Nous colors de textos HA 2025.8
+  ha-color-fill-primary-loud-resting: var(--primary-color)
+  ha-color-fill-primary-loud-active: var(--primary-color)
+  ha-color-fill-primary-loud-hover: var(--light-primary-color) #var(--primary-color-hover)
+  ha-color-on-primary-normal: var(--primary-color)
+  # ha-color-on-primary-quiet: var(--divider-color) #var(--primary-color-quiet)
+  # ha-color-fill-disabled-normal-resting: var(--divider-color) #var(--fill-disabled-normal)
+  # ha-color-fill-disabled-quiet-resting: var(--divider-color) #var(--fill-disabled-quiet)
+  # ha-color-fill-disabled-loud-resting: var(--divider-color) #var(--fill-disabled-loud)
+  ha-color-on-disabled-normal: var(--state-inactive-color)
+  # ha-color-on-disabled-quiet: var(--divider-color) #var(--disabled-quiet)
+  # ha-color-on-disabled-loud: var(--divider-color) #var(--disabled-loud)
+  # wa-color-brand-fill-loud: var(--primary-color)
+  # wa-color-brand-fill-normal: var(--primary-color)
+  wa-color-brand-fill-quiet: var(--quiet-color)
+  wa-color-brand-on-quiet: var(--primary-color)
   ### Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -4445,7 +4783,7 @@ Zeno Light Gray:
   ### Icons colors (ara aquests controlen els colors)
   state-icon-color: var(--disabled-color)
   state-active-color: var(--primary-color) #var(--amber-color)
-  # state-inactive-color: var(--grey-color)
+  state-inactive-color: var(--disabled-color) #var(--grey-color)
   # state-unavailable-color: var(--disabled-color)
   state-switch-active-color: var(--primary-color) #var(--amber-color)
   state-light-active-color: var(--primary-color) #var(--amber-color)
